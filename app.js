@@ -98,7 +98,7 @@
       ${n.imagen ? `<figure><img src="${esc(n.imagen)}" alt=""><figcaption>${esc(n.credito || "")}</figcaption></figure>` : ""}
       <p class="fecha">${fecha(n.fecha)} · ${esc(n.autor || "")}</p>
       <div class="nota__cuerpo">${(n.cuerpo || []).map((p) => `<p>${esc(p)}</p>`).join("")}</div>
-      ${(n.galeria || []).length ? `<div class="nota-galeria">${n.galeria.map((g) => `<a href="${esc(g)}" target="_blank" rel="noopener"><img src="${esc(g)}" alt="Foto de ${esc(n.titulo)}" loading="lazy"></a>`).join("")}</div><p class="fecha">${esc(n.credito || "")}</p>` : ""}
+      ${(n.galeria || []).length ? `<div class="nota-galeria">${n.galeria.map((g) => `<a href="${esc(g)}" target="_blank" rel="noopener"><img src="${esc(g)}" alt="Foto de ${esc(n.titulo)}" loading="lazy"></a>`).join("")}</div><p class="fecha">${esc(n.creditoGaleria || n.credito || "")}</p>` : ""}
       ${(n.fuentes || []).length ? `<p class="fuentes">Fuentes: ${n.fuentes.map((f) => `<a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.nombre)}</a>`).join(" · ")}</p>` : ""}
       <a class="volver" href="index.html">← Volver al inicio</a>`;
   }
