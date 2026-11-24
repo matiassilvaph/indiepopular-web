@@ -35,6 +35,7 @@ a{color:inherit}
 .tag--Entrevistas{background:var(--crema);color:var(--tinta)}
 .tag--Cobertura{background:var(--tinta);color:var(--celeste);border:2px solid var(--celeste);padding:4px 10px}
 .tag--Noticias{background:var(--celeste)}
+.tag--Agenda{background:var(--mostaza);color:var(--tinta)}
 
 /* Portada */
 .portada{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:0;margin:32px auto 0;border:1px solid #2a2a2a;text-decoration:none}
@@ -54,7 +55,16 @@ a{color:inherit}
 
 .grilla{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:28px}
 .tarjeta{text-decoration:none;display:flex;flex-direction:column;gap:12px}
-.tarjeta img{aspect-ratio:4/5;object-fit:cover;width:100%;border-bottom:6px solid var(--mostaza)}
+.tarjeta__img{aspect-ratio:4/5;object-fit:cover;width:100%;border-bottom:6px solid var(--mostaza)}
+.placa{display:flex;align-items:flex-end;padding:28px;background:var(--celeste);color:var(--tinta);overflow:hidden}
+.placa span{font-family:var(--display);font-size:clamp(34px,4vw,56px);line-height:.95;text-transform:uppercase}
+.placa--Descubrir{background:var(--teja)}
+.placa--Entrevistas{background:var(--crema)}
+.placa--Cobertura{background:var(--mostaza)}
+.placa--Agenda{background:var(--mostaza)}
+.portada__img.placa{aspect-ratio:4/3}
+.portada__img.placa span{font-size:clamp(48px,6vw,96px)}
+.fuentes{font-size:15px;opacity:.75;margin-top:28px}
 .tarjeta h3{margin:0;font-family:var(--display);font-weight:400;font-size:32px;line-height:1;text-transform:uppercase}
 .tarjeta p{margin:0;opacity:.85}
 .tarjeta:hover h3{color:var(--mostaza)}

@@ -6,6 +6,10 @@
     return isNaN(d) ? iso : d.toLocaleDateString("es-AR", { day: "numeric", month: "long", year: "numeric" });
   };
   const tag = (c) => `<span class="tag tag--${esc(c)}">${esc(c)}</span>`;
+  // Si la nota no tiene foto propia, se genera una placa con la identidad visual
+  const tapa = (n, clase) => n.imagen
+    ? `<img class="${clase}" src="${esc(n.imagen)}" alt="" loading="lazy">`
+    : `<div class="${clase} placa placa--${esc(n.categoria)}" aria-hidden="true"><span>${esc(n.placa || n.titulo)}</span></div>`;
 
   // Links del footer y redes
   document.querySelectorAll("[data-link]").forEach((a) => {
@@ -22,7 +26,7 @@
     const n = NOTAS[0];
     portada.href = "nota.html?id=" + encodeURIComponent(n.id);
     portada.innerHTML = `
-      <img class="portada__img" src="${esc(n.imagen)}" alt="">
+      ${tapa(n, "portada__img")}
       <div class="portada__texto">
         <div>${tag(n.categoria)}</div>
         <h1>${esc(n.titulo)}</h1>
@@ -38,7 +42,7 @@
     grilla.innerHTML = lista.length
       ? lista.map((n) => `
         <a class="tarjeta" href="nota.html?id=${encodeURIComponent(n.id)}">
-          <img src="${esc(n.imagen)}" alt="" loading="lazy">
+          ${tapa(n, "tarjeta__img")}
           <div>${tag(n.categoria)}</div>
           <h3>${esc(n.titulo)}</h3>
           <p>${esc(n.bajada)}</p>
@@ -87,9 +91,10 @@
       ${tag(n.categoria)}
       <h1>${esc(n.titulo)}</h1>
       <p class="bajada">${esc(n.bajada)}</p>
-      <figure><img src="${esc(n.imagen)}" alt=""><figcaption>${esc(n.credito || "")}</figcaption></figure>
+      ${n.imagen ? `<figure><img src="${esc(n.imagen)}" alt=""><figcaption>${esc(n.credito || "")}</figcaption></figure>` : ""}
       <p class="fecha">${fecha(n.fecha)} · ${esc(n.autor || "")}</p>
       <div class="nota__cuerpo">${(n.cuerpo || []).map((p) => `<p>${esc(p)}</p>`).join("")}</div>
+      ${(n.fuentes || []).length ? `<p class="fuentes">Fuentes: ${n.fuentes.map((f) => `<a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.nombre)}</a>`).join(" · ")}</p>` : ""}
       <a class="volver" href="index.html">← Volver al inicio</a>`;
   }
 })();
