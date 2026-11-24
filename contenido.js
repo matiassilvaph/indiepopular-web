@@ -15,6 +15,30 @@ const CONFIG = {
 /* categoria: "Noticias" | "Descubrir" | "Entrevistas" | "Cobertura" | "Agenda" */
 const NOTAS = [
   {
+    id: "aky-heredia-la-amistad-sonora-aniversario",
+    categoria: "Cobertura",
+    fecha: "2026-11-24",
+    titulo: "Aky Heredia en el primer aniversario de La Amistad Sonora",
+    bajada: "Guitarra criolla y pandereta en el pie en el festejo de La Amistad Sonora, en San Miguel.",
+    imagen: "img/las-aniversario/aky-01.jpg",
+    credito: "Fotos: Matías Silva",
+    autor: "Indie Popular",
+    cuerpo: [
+      "El domingo 22 de noviembre, La Amistad Sonora festejó su primer año con una edición especial en San Miguel, en España y Sarmiento. La fecha fue de 18 a 24 h y tuvo como eje un homenaje a The Clash x Radio Kapital, con Christian Vaca y Aky Heredia en la grilla.",
+      "La jornada sumó selectores pasando vinilos, stands de música, pintura en vivo de Eluxbe y swing a cargo de Contraluz.",
+      "Aky se presentó solo, con su guitarra criolla cubierta de stickers y una pandereta que marcaba el pulso desde el pie. Estuvimos ahí para registrar su set.",
+      "Para escuchar sus canciones: Aky Heredia está en Spotify y en Instagram como @akyheredia."
+    ],
+    galeria: [
+      "img/las-aniversario/aky-02.jpg",
+      "img/las-aniversario/aky-03.jpg",
+      "img/las-aniversario/aky-04.jpg",
+      "img/las-aniversario/aky-07.jpg",
+      "img/las-aniversario/aky-06.jpg",
+      "img/las-aniversario/aky-08.jpg"
+    ]
+  },
+  {
     id: "primavera-sound-2026-cobertura",
     categoria: "Cobertura",
     fecha: "2026-11-24",
