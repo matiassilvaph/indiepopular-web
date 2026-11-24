@@ -10,7 +10,7 @@
 const CONFIG = {
   instagram: "https://www.instagram.com/indiepopular/",
   youtube: "https://www.youtube.com/@indiepopular",
-  email: "[tu-mail@ejemplo.com]"
+  email: "indipopular@gmail.com"
 };
 
 /* categoria: "Noticias" | "Descubrir" | "Entrevistas" | "Cobertura" | "Agenda" */
