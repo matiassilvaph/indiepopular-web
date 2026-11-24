@@ -231,7 +231,7 @@ inicio = inicio
           <p>${esc(n.bajada)}</p>
           <span class="fecha">${fechaLarga(n.fecha)}</span>
         </a>`).join("")}</div>`)
-  .replace('<div id="agenda-lista"></div>', `<div id="agenda-lista">${AGENDA.map((a) => `
+  .replace('<div id="agenda-lista"></div>', `<div id="agenda-lista">${AGENDA.filter((a) => (isoAgenda(a.dia) || "9") >= new Date(HOY.getTime() - 3 * 3600e3).toISOString().slice(0, 10)).map((a) => `
         <div class="agenda__fila">
           <div class="agenda__dia">${esc(a.dia)}</div>
           <div><div class="agenda__artista">${esc(a.artista)}</div><div>${esc(a.lugar)}</div></div>
@@ -240,11 +240,98 @@ inicio = inicio
 inicio = footerLinks(inicio);
 fs.writeFileSync(path.join(DIST, "index.html"), inicio);
 
+// ---------- /recitales/: página de agenda completa (búsquedas tipo "bandas que vienen a la Argentina") ----------
+const hoyIso = new Date(HOY.getTime() - 3 * 3600e3).toISOString().slice(0, 10);
+const proximos = AGENDA.map((a) => ({ ...a, iso: isoAgenda(a.dia) }))
+  .filter((a) => a.iso && a.iso >= hoyIso)
+  .sort((x, y) => x.iso.localeCompare(y.iso));
+const porMes = {};
+for (const a of proximos) {
+  const k = a.iso.slice(0, 7);
+  (porMes[k] = porMes[k] || []).push(a);
+}
+const tituloRec = `Recitales en Argentina 2026 y 2027: bandas que vienen, fechas y lugares`;
+const descRec = `Agenda actualizada de recitales y festivales en Argentina: ${proximos.slice(0, 6).map((a) => a.artista.replace(/\s*\(.*\)$/, "")).join(", ")} y más. Fechas, lugares y horarios confirmados.`.slice(0, 300);
+const urlRec = SITIO + "/recitales/";
+const anios = [...new Set(proximos.map((a) => a.iso.slice(0, 4)))].join(" y ");
+const cuerpoRec = `
+      <span class="tag tag--Agenda">Agenda</span>
+      <h1>Recitales en Argentina ${esc(anios)}: bandas que vienen y fechas confirmadas</h1>
+      <p class="bajada">Todos los shows y festivales confirmados en Buenos Aires y el resto del país, ordenados por fecha. Actualizada el ${fechaLarga(hoyIso)}.</p>
+      <div class="nota__cuerpo"><p>En los próximos meses tocan en la Argentina ${esc(proximos.slice(0, 8).map((a) => a.artista.replace(/\s*[(·].*$/, "").trim()).join(", "))}, entre otros. Esta agenda reúne solo fechas confirmadas por los artistas, las productoras o los venues, y se actualiza con cada anuncio.</p></div>
+      ${Object.entries(porMes).map(([k, lista]) => {
+        const [a, m] = k.split("-").map(Number);
+        return `<h2 class="rec__mes">${MESES[m - 1][0].toUpperCase() + MESES[m - 1].slice(1)} ${a}</h2>
+      <div class="agenda rec__lista">${lista.map((e) => `
+        <div class="agenda__fila">
+          <div class="agenda__dia"><time datetime="${e.iso}">${esc(e.dia)}</time></div>
+          <div><div class="agenda__artista">${esc(e.artista)}</div><div>${esc(e.lugar)}</div></div>
+          <div class="agenda__hora">${esc(e.hora)}</div>
+        </div>`).join("")}</div>`;
+      }).join("\n")}
+      <p class="fuentes">¿Falta una fecha? Escribinos a <a href="mailto:${esc(CONFIG.email)}">${esc(CONFIG.email)}</a> o por <a href="${esc(CONFIG.instagram)}">Instagram</a>.</p>
+      <a class="volver" href="/">← Volver al inicio</a>`;
+const headRec = `<title>${esc(tituloRec)} · ${NOMBRE}</title>
+<meta name="description" content="${esc(descRec)}">
+<link rel="canonical" href="${urlRec}">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="${NOMBRE}">
+<meta property="og:locale" content="es_AR">
+<meta property="og:title" content="${esc(tituloRec)}">
+<meta property="og:description" content="${esc(descRec)}">
+<meta property="og:url" content="${urlRec}">
+<meta property="og:image" content="${LOGO}">
+<meta name="twitter:card" content="summary_large_image">
+${jsonld({
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": urlRec + "#pagina",
+      name: tituloRec,
+      description: descRec,
+      url: urlRec,
+      inLanguage: "es-AR",
+      dateModified: hoyIso,
+      isPartOf: { "@id": SITIO + "/#sitio" },
+      publisher: { "@id": SITIO + "/#medio" },
+      mainEntity: {
+        "@type": "ItemList",
+        name: "Recitales y festivales confirmados en Argentina",
+        numberOfItems: proximos.length,
+        itemListOrder: "https://schema.org/ItemListOrderAscending",
+        itemListElement: proximos.map((e, i) => ({ "@type": "ListItem", position: i + 1, name: `${e.artista} · ${e.lugar} · ${e.dia}` }))
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: NOMBRE, item: SITIO + "/" },
+        { "@type": "ListItem", position: 2, name: "Recitales en Argentina", item: urlRec }
+      ]
+    },
+    ORG,
+    ...eventos.filter((ev) => String(ev.startDate).slice(0, 10) >= hoyIso)
+  ]
+})}`;
+let rec = plantillaNota
+  .replace(/<title>[\s\S]*?<meta name="description"[^>]*>/, headRec)
+  .replace(/href="estilos\.css"/, 'href="/estilos.css"')
+  .replace(/href="index\.html#/g, 'href="/#')
+  .replace(/href="index\.html"/g, 'href="/"')
+  .replace('<article id="nota" class="nota"></article>', `<article class="nota">${cuerpoRec}</article>`)
+  .replace(/<script src="contenido\.js"><\/script>\s*<script src="app\.js"><\/script>/, "");
+rec = footerLinks(rec);
+fs.mkdirSync(path.join(DIST, "recitales"), { recursive: true });
+fs.writeFileSync(path.join(DIST, "recitales", "index.html"), rec);
+
 // ---------- sitemap.xml ----------
 const ultima = NOTAS.reduce((m, n) => (n.fecha > m ? n.fecha : m), "2026-01-01");
 fs.writeFileSync(path.join(DIST, "sitemap.xml"), `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url><loc>${SITIO}/</loc><lastmod>${ultima}</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
+  <url><loc>${SITIO}/recitales/</loc><lastmod>${hoyIso}</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>
 ${NOTAS.map((n) => `  <url><loc>${urlNota(n)}</loc><lastmod>${n.fecha}</lastmod>${n.imagen ? `<image:image><image:loc>${esc(abs(n.imagen))}</image:loc></image:image>` : ""}</url>`).join("\n")}
 </urlset>
 `);
@@ -292,6 +379,8 @@ fs.writeFileSync(path.join(DIST, "llms.txt"), `# ${NOMBRE}
 ${NOTAS.map((n) => `- [${n.titulo}](${urlNota(n)}): ${n.bajada} (${n.categoria}, ${n.fecha})`).join("\n")}
 
 ## Agenda de recitales
+
+Agenda completa y actualizada: ${SITIO}/recitales/
 
 ${AGENDA.map((a) => `- ${a.dia} · ${a.artista} · ${a.lugar} · ${a.hora}`).join("\n")}
 `);
