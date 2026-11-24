@@ -16,6 +16,30 @@ const CONFIG = {
 /* categoria: "Noticias" | "Descubrir" | "Entrevistas" | "Cobertura" | "Agenda" */
 const NOTAS = [
   {
+    id: "trueno-movistar-arena-abril-2027",
+    categoria: "Noticias",
+    fecha: "2026-11-24",
+    titulo: "Trueno presenta TURR4ZO en el Movistar Arena: fecha y entradas",
+    placa: "Trueno",
+    placaDetalle: "TURR4ZO World Tour\n\n11 de abril de 2027\nMovistar Arena",
+    bajada: "El rapero de La Boca toca el 11 de abril de 2027 en el Movistar Arena, su primer show en ese estadio. La preventa ya empezó.",
+    imagen: "",
+    autor: "Indie Popular",
+    cuerpo: [
+      "Trueno se presentará el 11 de abril de 2027 en el Movistar Arena de Buenos Aires, en el marco del TURR4ZO World Tour. Será su primer show en ese estadio y la preventa de entradas ya comenzó.",
+      "El concierto tendrá como eje TURR4ZO, su cuarto álbum de estudio, publicado en abril de 2026, con participaciones de María Becerra, Milo J y Andrés Calamaro, entre otros. La gira lo llevó por Asia, Europa y América, con una presentación en el Fuji Rock Festival de Japón.",
+      "La conexión de Trueno con el mundo alternativo pasa por Gorillaz: es el invitado de «The Manifesto», junto al fallecido rapero Proof, una de las canciones de The Mountain, el disco que hoy compite en los Grammy como Mejor Álbum de Música Alternativa. Además, fue telonero de la banda de Damon Albarn en fechas seleccionadas de su gira por Reino Unido e Irlanda en 2026.",
+      "La relación viene de antes: en el Quilmes Rock 2022, Trueno subió a improvisar en medio de «Clint Eastwood» durante el show de Gorillaz."
+    ],
+    fuentes: [
+      { nombre: "Perfil", url: "https://perfil.com/arte-cultura/con-una-firma-de-sus-vinilos-trueno-anticipo-lo-que-viene-en-su-primer-show-en-el-movistar-arena-aIYqa5b7sR7J" },
+      { nombre: "Minuto Uno", url: "https://www.minutouno.com/espectaculos/trueno-confirmo-su-regreso-la-argentina-un-show-2027-cuando-comprar-las-entradas-n6345173" },
+      { nombre: "Rolling Stone en Español", url: "https://es.rollingstone.com/arg-trueno-se-une-a-gorillaz-en-the-manifesto-el-nuevo-adelanto-de-su-proximo-disco/" },
+      { nombre: "Rolling Stone", url: "https://www.rollingstone.com/music/music-news/gorillaz-trueno-d12-rapper-proof-new-song-the-manifesto-1235443081/" },
+      { nombre: "La Capital", url: "https://www.lacapital.com.ar/zoom/gorillaz-adelanta-su-nuevo-disco-una-cancion-junto-trueno-n10223367.html" }
+    ]
+  },
+  {
     id: "faith-no-more-alice-in-chains-mastodon-estadio-ferro-2027",
     categoria: "Noticias",
     fecha: "2026-11-24",
@@ -191,6 +215,7 @@ const AGENDA = [
   { dia: "23/03", artista: "U2 (también 25 y 27 de marzo)", lugar: "Estadio River Plate, Núñez", hora: "A confirmar" },
   { dia: "01/04", artista: "Jungle", lugar: "Movistar Arena, Villa Crespo", hora: "A confirmar" },
   { dia: "04/04", artista: "Pixies", lugar: "Movistar Arena, Villa Crespo", hora: "A confirmar" },
+  { dia: "11/04", artista: "Trueno (TURR4ZO World Tour)", lugar: "Movistar Arena, Villa Crespo", hora: "A confirmar" },
   { dia: "16/04", artista: "Quilmes Rock 2027 (16, 17 y 18 de abril)", lugar: "A confirmar", hora: "A confirmar" },
   { dia: "22/05", artista: "El Cuarteto de Nos", lugar: "Movistar Arena, Villa Crespo", hora: "21 h" },
   { dia: "27/05", artista: "Beth Gibbons", lugar: "C Art Media, Chacarita", hora: "A confirmar" },
