@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Indie Popular · Música independiente desde San Miguel</title>
+<meta name="description" content="Indie Popular: espacio artístico autogestivo de San Miguel, Buenos Aires. Noticias, agenda, entrevistas y coberturas de la música que nos gusta.">
+<meta property="og:title" content="Indie Popular">
+<meta property="og:description" content="Noticias, agenda, entrevistas y coberturas de música independiente.">
+<meta property="og:image" content="img/primavera.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<header class="header">
+  <div class="contenedor header__fila">
+    <a class="marca" href="index.html" aria-label="Indie Popular, inicio">
+      <span class="logo" aria-hidden="true"><span class="logo__disco"><span class="logo__a">INDIE</span><span class="logo__b">POPULAR</span></span></span>
+      <span class="marca__nombre">Indie <b>Popular</b></span>
+    </a>
+    <nav class="nav" aria-label="Secciones">
+      <a href="#notas">Notas</a>
+      <a href="#agenda">Agenda</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </div>
+  <div class="franja" aria-hidden="true"><span></span><span></span><span></span></div>
+</header>
+
+<main class="contenedor">
+  <a id="portada" class="portada" href="#"></a>
+
+  <section id="notas" class="seccion">
+    <div class="seccion__titulo">
+      <h2>Últimas notas</h2>
+      <div id="filtros" class="filtros" role="group" aria-label="Filtrar por sección">
+        <button type="button" data-cat="" aria-pressed="true">Todo</button>
+        <button type="button" data-cat="Noticias" aria-pressed="false">Noticias</button>
+        <button type="button" data-cat="Descubrir" aria-pressed="false">Descubrir</button>
+        <button type="button" data-cat="Entrevistas" aria-pressed="false">Entrevistas</button>
+        <button type="button" data-cat="Cobertura" aria-pressed="false">Coberturas</button>
+      </div>
+    </div>
+    <div id="grilla" class="grilla"></div>
+  </section>
+
+  <section id="agenda" class="seccion">
+    <div class="agenda">
+      <div class="seccion__titulo"><h2>Agenda</h2><strong>Recitales independientes · zona noroeste</strong></div>
+      <div id="agenda-lista"></div>
+      <p style="margin:20px 0 0;font-weight:700">¿Tocás? Mandanos tu fecha por <a data-link="instagram" href="#">Instagram</a>.</p>
+    </div>
+  </section>
+
+  <section id="nosotros" class="seccion">
+    <div class="seccion__titulo"><h2>Nosotros</h2></div>
+    <div class="nosotros">
+      <img src="img/evento.jpg" alt="Artistas y público en una edición del Indie Popular">
+      <div>
+        <p>Indie Popular nació el 02/04/22 como un evento para que artistas independientes pudieran mostrar su arte. Lo hicimos donde se podía, siempre autogestivo.</p>
+        <p>Ahora sumamos noticias, entrevistas y coberturas de la música que nos gusta, sin dejar de hacer eventos cuando se pueda. Somos de San Miguel, provincia de Buenos Aires.</p>
+        <p><strong>Lo creamos Aky Heredia y Matías Silva.</strong></p>
+        <h3 style="font-family:var(--display);font-weight:400;font-size:30px;text-transform:uppercase;margin:28px 0 0">Pasaron por el Indie Popular</h3>
+        <div id="artistas" class="artistas"></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer id="contacto" class="footer">
+  <div class="contenedor footer__fila">
+    <div>
+      <a data-link="instagram" href="#">Instagram</a>
+      <a data-link="youtube" href="#">YouTube</a>
+      <a data-link="email" href="#">Mail</a>
+    </div>
+    <small>© <span id="anio"></span> Indie Popular · Espacio artístico autogestivo</small>
+  </div>
+</footer>
+
+<script src="contenido.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

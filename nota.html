@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nota · Indie Popular</title>
+<meta name="description" content="Indie Popular">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<header class="header">
+  <div class="contenedor header__fila">
+    <a class="marca" href="index.html" aria-label="Indie Popular, inicio">
+      <span class="logo" aria-hidden="true"><span class="logo__disco"><span class="logo__a">INDIE</span><span class="logo__b">POPULAR</span></span></span>
+      <span class="marca__nombre">Indie <b>Popular</b></span>
+    </a>
+    <nav class="nav" aria-label="Secciones">
+      <a href="index.html#notas">Notas</a>
+      <a href="index.html#agenda">Agenda</a>
+      <a href="index.html#nosotros">Nosotros</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </div>
+  <div class="franja" aria-hidden="true"><span></span><span></span><span></span></div>
+</header>
+
+<main class="contenedor">
+  <article id="nota" class="nota"></article>
+</main>
+
+<footer id="contacto" class="footer">
+  <div class="contenedor footer__fila">
+    <div>
+      <a data-link="instagram" href="#">Instagram</a>
+      <a data-link="youtube" href="#">YouTube</a>
+      <a data-link="email" href="#">Mail</a>
+    </div>
+    <small>© <span id="anio"></span> Indie Popular · Espacio artístico autogestivo</small>
+  </div>
+</footer>
+
+<script src="contenido.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

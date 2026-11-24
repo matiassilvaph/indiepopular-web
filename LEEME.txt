@@ -1,0 +1,17 @@
+INDIE POPULAR — WEB
+
+SUBIR A NETLIFY
+1. Entrá a app.netlify.com con tu cuenta (la misma de tu web de fotografía).
+2. "Add new site" > "Deploy manually".
+3. Arrastrá ESTA CARPETA entera (descomprimida).
+4. En "Site configuration" > "Change site name" ponele, por ejemplo, indiepopular → indiepopular.netlify.app
+5. Para actualizar: en el sitio, pestaña "Deploys", arrastrá la carpeta otra vez.
+
+CARGAR NOTAS
+- Todo el contenido está en contenido.js (notas, agenda, artistas, links).
+- La primera nota de la lista es la portada.
+- Fotos: guardalas en la carpeta img/ (ideal 1600 px de ancho, JPG) y poné la ruta, ej. "img/mi-foto.jpg".
+- Completá en CONFIG el link de YouTube y el mail.
+
+LAS FOTOS DE EJEMPLO
+Son recortes de baja resolución tomados de capturas de Instagram. Reemplazalas por los archivos originales.
