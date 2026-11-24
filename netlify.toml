@@ -1,0 +1,7 @@
+# Netlify corre build.js en cada push y publica la carpeta dist/
+[build]
+  command = "node build.js"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"

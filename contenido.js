@@ -132,11 +132,44 @@ const NOTAS = [
   }
 ];
 
-/* Agenda de recitales. Borrá las fechas viejas. */
+/* Agenda de recitales, en orden cronológico. Borrá las fechas viejas. */
 const AGENDA = [
+  { dia: "24/11", artista: "Hot Chip", lugar: "C Art Media, Chacarita", hora: "A confirmar" },
+  { dia: "26/11", artista: "Johnny Marr", lugar: "C Art Media, Chacarita", hora: "A confirmar" },
+  { dia: "26/11", artista: "Gorillaz", lugar: "Estadio Mario Alberto Kempes, Córdoba", hora: "A confirmar" },
+  { dia: "26/11", artista: "Underworld", lugar: "Mandarine Park, Costanera Norte", hora: "A confirmar" },
+  { dia: "27/11", artista: "Barbi Recanati", lugar: "Niceto Club, Palermo", hora: "A confirmar" },
+  { dia: "27/11", artista: "Eruca Sativa", lugar: "C Art Media, Chacarita", hora: "A confirmar" },
+  { dia: "28/11", artista: "A Perfect Circle", lugar: "Estadio Malvinas Argentinas, Paternal", hora: "A confirmar" },
   { dia: "28/11", artista: "Primavera Sound BA · día 1 (Gorillaz, Marilina Bertoldi, El Nota)", lugar: "Club Ciudad de Buenos Aires, Núñez", hora: "14:15 a 00:00" },
   { dia: "29/11", artista: "Primavera Sound BA · día 2 (The Strokes, Juana Molina, Santiago Motorizado)", lugar: "Club Ciudad de Buenos Aires, Núñez", hora: "14:15 a 23:45" },
-  { dia: "05/12", artista: "Sonido Konex: Buenos Vampiros, Nina Suárez, Tomates en Verano", lugar: "Ciudad Cultural Konex, Sarmiento 3131", hora: "19 h" }
+  { dia: "29/11", artista: "Marc Almond", lugar: "El Teatrito, Buenos Aires", hora: "A confirmar" },
+  { dia: "30/11", artista: "FKA twigs", lugar: "Teatro Coliseo, Retiro", hora: "A confirmar" },
+  { dia: "01/12", artista: "New Order", lugar: "Mandarine Park, Costanera Norte", hora: "A confirmar" },
+  { dia: "01/12", artista: "Giant Rooks", lugar: "Teatro Vorterix, Colegiales", hora: "A confirmar" },
+  { dia: "01/12", artista: "underscores", lugar: "Deseo, Buenos Aires", hora: "A confirmar" },
+  { dia: "02/12", artista: "American Football", lugar: "C Art Media, Chacarita", hora: "A confirmar" },
+  { dia: "03/12", artista: "Of Monsters and Men", lugar: "C Art Media, Chacarita", hora: "A confirmar" },
+  { dia: "03/12", artista: "Jaime Sin Tierra", lugar: "Deseo, Buenos Aires", hora: "A confirmar" },
+  { dia: "04/12", artista: "Mi Amigo Invencible", lugar: "Niceto Club, Palermo", hora: "A confirmar" },
+  { dia: "04/12", artista: "Santiago Motorizado", lugar: "Deseo, Buenos Aires", hora: "A confirmar" },
+  { dia: "05/12", artista: "Sonido Konex: Buenos Vampiros, Nina Suárez, Tomates en Verano", lugar: "Ciudad Cultural Konex, Sarmiento 3131", hora: "19 h" },
+  { dia: "05/12", artista: "Popfest", lugar: "Parque Norte", hora: "A confirmar" },
+  { dia: "05/12", artista: "Daniel Caesar", lugar: "Estadio Obras Sanitarias, Núñez", hora: "A confirmar" },
+  { dia: "08/12", artista: "Shintaro Sakamoto", lugar: "Niceto Club, Palermo", hora: "A confirmar" },
+  { dia: "15/01", artista: "Rush", lugar: "Movistar Arena, Villa Crespo", hora: "A confirmar" },
+  { dia: "05/02", artista: "Jack Johnson", lugar: "Movistar Arena, Villa Crespo", hora: "A confirmar" },
+  { dia: "06/02", artista: "Cosquín Rock 2027 (6 y 7 de febrero)", lugar: "Aeródromo de Santa María de Punilla, Córdoba", hora: "A confirmar" },
+  { dia: "25/02", artista: "Foo Fighters", lugar: "Estadio River Plate, Núñez", hora: "A confirmar" },
+  { dia: "03/03", artista: "Placebo", lugar: "Estadio Malvinas Argentinas, Paternal", hora: "A confirmar" },
+  { dia: "12/03", artista: "Lollapalooza Argentina 2027 (12, 13 y 14 de marzo)", lugar: "Hipódromo de San Isidro", hora: "A confirmar" },
+  { dia: "23/03", artista: "Kasabian", lugar: "C Art Media, Chacarita", hora: "A confirmar" },
+  { dia: "23/03", artista: "U2 (también 25 y 27 de marzo)", lugar: "Estadio River Plate, Núñez", hora: "A confirmar" },
+  { dia: "01/04", artista: "Jungle", lugar: "Movistar Arena, Villa Crespo", hora: "A confirmar" },
+  { dia: "04/04", artista: "Pixies", lugar: "Movistar Arena, Villa Crespo", hora: "A confirmar" },
+  { dia: "16/04", artista: "Quilmes Rock 2027 (16, 17 y 18 de abril)", lugar: "A confirmar", hora: "A confirmar" },
+  { dia: "22/05", artista: "El Cuarteto de Nos", lugar: "Movistar Arena, Villa Crespo", hora: "21 h" },
+  { dia: "27/05", artista: "Beth Gibbons", lugar: "C Art Media, Chacarita", hora: "A confirmar" }
 ];
 
 /* Artistas que tocaron en los ciclos de Indie Popular (de los flyers) */
