@@ -53,11 +53,11 @@ const tapa = (n, clase) => n.imagen
 // Año de una fecha de agenda "DD/MM": si ya pasó hace más de 60 días, es del año siguiente
 const HOY = new Date();
 function isoAgenda(dia) {
-  const m = /^(\d{1,2})\/(\d{1,2})/.exec(dia || "");
+  const m = /^(\d{1,2})\/(\d{1,2})(?:\/(\d{4}))?/.exec(dia || "");
   if (!m) return null;
   const d = +m[1], mes = +m[2];
-  let a = HOY.getFullYear();
-  if (new Date(a, mes - 1, d) < new Date(HOY.getTime() - 60 * 864e5)) a++;
+  let a = m[3] ? +m[3] : HOY.getFullYear();
+  if (!m[3] && new Date(a, mes - 1, d) < new Date(HOY.getTime() - 60 * 864e5)) a++;
   return `${a}-${String(mes).padStart(2, "0")}-${String(d).padStart(2, "0")}`;
 }
 

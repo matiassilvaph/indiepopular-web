@@ -16,6 +16,29 @@ const CONFIG = {
 /* categoria: "Noticias" | "Descubrir" | "Entrevistas" | "Cobertura" | "Agenda" */
 const NOTAS = [
   {
+    id: "faith-no-more-alice-in-chains-mastodon-estadio-ferro-2027",
+    categoria: "Noticias",
+    fecha: "2026-11-24",
+    titulo: "Faith No More vuelve a la Argentina con Alice In Chains y Mastodon: fecha y lugar",
+    placa: "Faith No More",
+    placaDetalle: "+ Alice In Chains\n+ Mastodon\n\n7 de noviembre de 2027\nEstadio Ferro",
+    bajada: "La banda de Mike Patton toca el 7 de noviembre de 2027 en el Estadio Ferro, con Alice In Chains y Mastodon como invitados.",
+    imagen: "",
+    autor: "Indie Popular",
+    cuerpo: [
+      "Faith No More tocará el domingo 7 de noviembre de 2027 en el Estadio Ferro, en Caballito, con Alice In Chains y Mastodon como invitados especiales. Será su primera presentación en el país en doce años.",
+      "La fecha forma parte del Faith No More South America Tour 2027, anunciado el 17 de noviembre. La gira empieza el 29 de octubre en São Paulo (Nubank Parque) y sigue el 31 de octubre en Curitiba (Arena da Baixada) y el 4 de noviembre en Santiago de Chile (Parque Cerrillos), antes de cerrar en Buenos Aires.",
+      "Antes de esta gira, Faith No More se presentará el 15 de enero de 2027 junto a System of a Down en el estadio Maracaná de Río de Janeiro.",
+      "La fecha de venta de entradas para el show de Buenos Aires todavía no fue informada. Indie Popular actualizará la información cuando se anuncie."
+    ],
+    fuentes: [
+      { nombre: "Tiempo Argentino", url: "https://www.tiempoar.com.ar/ta_article/faith-no-more-argentina-alice-in-chains-mastodon/" },
+      { nombre: "Indie Hoy (agenda)", url: "https://indiehoy.com/?p=879545" },
+      { nombre: "The Music Universe", url: "https://themusicuniverse.com/faith-no-more-reveals-2027-south-american-tour-dates/" },
+      { nombre: "El Dínamo", url: "https://www.eldinamo.cl/entretencion/2026/11/17/faith-no-more-vuelve-a-chile-la-banda-de-mike-patton-confirma-su-regreso-para-noviembre-2027/" }
+    ]
+  },
+  {
     id: "aky-heredia-la-amistad-sonora-aniversario",
     categoria: "Cobertura",
     fecha: "2026-11-24",
@@ -159,6 +182,7 @@ const AGENDA = [
   { dia: "08/12", artista: "Shintaro Sakamoto", lugar: "Niceto Club, Palermo", hora: "A confirmar" },
   { dia: "15/01", artista: "Rush", lugar: "Movistar Arena, Villa Crespo", hora: "A confirmar" },
   { dia: "05/02", artista: "Jack Johnson", lugar: "Movistar Arena, Villa Crespo", hora: "A confirmar" },
+  { dia: "06/02", artista: "María Becerra (también 7 de febrero)", lugar: "Movistar Arena, Villa Crespo", hora: "21 h" },
   { dia: "06/02", artista: "Cosquín Rock 2027 (6 y 7 de febrero)", lugar: "Aeródromo de Santa María de Punilla, Córdoba", hora: "A confirmar" },
   { dia: "25/02", artista: "Foo Fighters", lugar: "Estadio River Plate, Núñez", hora: "A confirmar" },
   { dia: "03/03", artista: "Placebo", lugar: "Estadio Malvinas Argentinas, Paternal", hora: "A confirmar" },
@@ -169,7 +193,8 @@ const AGENDA = [
   { dia: "04/04", artista: "Pixies", lugar: "Movistar Arena, Villa Crespo", hora: "A confirmar" },
   { dia: "16/04", artista: "Quilmes Rock 2027 (16, 17 y 18 de abril)", lugar: "A confirmar", hora: "A confirmar" },
   { dia: "22/05", artista: "El Cuarteto de Nos", lugar: "Movistar Arena, Villa Crespo", hora: "21 h" },
-  { dia: "27/05", artista: "Beth Gibbons", lugar: "C Art Media, Chacarita", hora: "A confirmar" }
+  { dia: "27/05", artista: "Beth Gibbons", lugar: "C Art Media, Chacarita", hora: "A confirmar" },
+  { dia: "07/11/2027", artista: "Faith No More + Alice In Chains + Mastodon", lugar: "Estadio Ferro, Caballito", hora: "A confirmar" }
 ];
 
 /* Artistas que tocaron en los ciclos de Indie Popular (de los flyers) */
