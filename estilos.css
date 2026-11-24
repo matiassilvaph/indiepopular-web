@@ -36,7 +36,7 @@ a{color:inherit}
 .tag--Cobertura{background:var(--tinta);color:var(--celeste);border:2px solid var(--celeste);padding:4px 10px}
 .tag--Noticias{background:var(--celeste)}
 .tag--Agenda{background:var(--mostaza);color:var(--tinta)}
-.tag--Listas{background:var(--teja);color:#fff}
+.tag--Listas{background:var(--teja-oscuro);color:#fff}
 .placa--Listas{background:var(--crema)}
 
 /* Portada */
