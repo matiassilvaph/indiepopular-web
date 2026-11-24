@@ -36,6 +36,8 @@ a{color:inherit}
 .tag--Cobertura{background:var(--tinta);color:var(--celeste);border:2px solid var(--celeste);padding:4px 10px}
 .tag--Noticias{background:var(--celeste)}
 .tag--Agenda{background:var(--mostaza);color:var(--tinta)}
+.tag--Listas{background:var(--teja);color:#fff}
+.placa--Listas{background:var(--crema)}
 
 /* Portada */
 .portada{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:0;margin:32px auto 0;border:1px solid #2a2a2a;text-decoration:none}
