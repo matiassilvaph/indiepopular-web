@@ -30,11 +30,11 @@ a{color:inherit}
 .nav a:hover,.nav a:focus-visible{background:var(--crema);color:var(--tinta)}
 
 /* Etiquetas */
-.tag{display:inline-block;font-weight:800;font-size:13px;letter-spacing:2px;text-transform:uppercase;padding:6px 12px;border-radius:999px;background:var(--celeste);color:var(--tinta)}
+.tag{display:inline-block;font-weight:800;font-size:13px;letter-spacing:2px;text-transform:uppercase;padding:6px 12px;border-radius:999px;background:var(--crema);color:var(--tinta)}
 .tag--Descubrir{background:var(--teja-oscuro);color:#fff}
-.tag--Entrevistas{background:var(--crema);color:var(--tinta)}
-.tag--Cobertura{background:var(--tinta);color:var(--celeste);border:2px solid var(--celeste);padding:4px 10px}
-.tag--Noticias{background:var(--celeste)}
+.tag--Entrevistas{background:var(--tinta);color:var(--crema);border:2px solid var(--crema);padding:4px 10px}
+.tag--Cobertura{background:var(--tinta);color:var(--mostaza);border:2px solid var(--mostaza);padding:4px 10px}
+.tag--Noticias{background:var(--crema)}
 .tag--Agenda{background:var(--mostaza);color:var(--tinta)}
 .tag--Listas{background:var(--teja-oscuro);color:#fff}
 .placa--Listas{background:var(--crema)}
@@ -58,7 +58,7 @@ a{color:inherit}
 .grilla{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:28px}
 .tarjeta{text-decoration:none;display:flex;flex-direction:column;gap:12px}
 .tarjeta__img{aspect-ratio:4/5;object-fit:cover;width:100%;border-bottom:6px solid var(--mostaza)}
-.placa{display:flex;flex-direction:column;justify-content:space-between;gap:16px;padding:22px 22px 0;background:var(--celeste);color:var(--tinta);overflow:hidden}
+.placa{display:flex;flex-direction:column;justify-content:space-between;gap:16px;padding:22px 22px 0;background:var(--crema);color:var(--tinta);overflow:hidden}
 .placa__top{display:flex;justify-content:space-between;align-items:center}
 .placa__cat{font-weight:800;font-size:13px;letter-spacing:2px;text-transform:uppercase;background:var(--tinta);color:var(--crema);padding:6px 12px;border-radius:999px}
 .placa__cuerpo{display:flex;flex-direction:column;gap:14px}
@@ -95,7 +95,7 @@ a{color:inherit}
 
 .nosotros p{font-size:20px}
 .artistas{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
-.artistas span{border:2px solid var(--celeste);color:var(--celeste);border-radius:999px;padding:6px 14px;font-weight:700;font-size:15px}
+.artistas span{border:2px solid var(--mostaza);color:var(--mostaza);border-radius:999px;padding:6px 14px;font-weight:700;font-size:15px}
 
 /* Nota */
 .nota{max-width:760px;margin:40px auto 0}
@@ -135,7 +135,7 @@ a{color:inherit}
 .escuchanos h3,.subtitulo{font-family:var(--display);font-weight:400;font-size:30px;text-transform:uppercase;margin:0}
 .subtitulo{margin-top:48px}
 .escuchanos iframe{border-radius:12px;border:0}
-.escuchanos a{font-weight:700;color:var(--celeste)}
+.escuchanos a{font-weight:700;color:var(--mostaza)}
 @media (max-width:800px){.galeria,.escuchanos{grid-template-columns:1fr}}
 
 .nota-galeria{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:28px}
