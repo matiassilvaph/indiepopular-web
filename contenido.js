@@ -20,15 +20,15 @@ const NOTAS = [
     categoria: "Cobertura",
     fecha: "2026-11-24",
     titulo: "Aky Heredia en el primer aniversario de La Amistad Sonora",
-    bajada: "Guitarra criolla y pandereta en el pie en el festejo de La Amistad Sonora, en San Miguel.",
+    bajada: "El ciclo de San Miguel celebró su primer año con un homenaje a The Clash. Registramos el set de Aky Heredia.",
     imagen: "img/las-aniversario/aky-01.jpg",
     credito: "Fotos: Matías Silva",
     autor: "Indie Popular",
     cuerpo: [
       "El domingo 22 de noviembre, La Amistad Sonora festejó su primer año con una edición especial en San Miguel, en España y Sarmiento. La fecha fue de 18 a 24 h y tuvo como eje un homenaje a The Clash x Radio Kapital, con Christian Vaca y Aky Heredia en la grilla.",
       "La jornada sumó selectores pasando vinilos, stands de música, pintura en vivo de Eluxbe y swing a cargo de Contraluz.",
-      "Aky se presentó solo, con su guitarra criolla cubierta de stickers y una pandereta que marcaba el pulso desde el pie. Estuvimos ahí para registrar su set.",
-      "Para escuchar sus canciones: Aky Heredia está en Spotify y en Instagram como @akyheredia."
+      "Aky Heredia se presentó en formato solista, con guitarra criolla y una pandereta que marcaba el pulso desde el pie.",
+      "La música de Aky Heredia está disponible en Spotify. En Instagram: @akyheredia."
     ],
     galeria: [
       "img/las-aniversario/aky-02.jpg",
@@ -52,9 +52,9 @@ const NOTAS = [
       "El festival publicó los horarios para el sábado 28 y el domingo 29 de noviembre en el Club Ciudad de Buenos Aires, en Núñez. Hay tres escenarios: Heineken, Primavera y Barcelona. La música arranca a las 14:15 los dos días.",
       "Sábado 28: Gorillaz toca de 21:25 a 22:55 en el escenario Heineken. Antes pasan Yung Lean (19:10), CMAT (20:15) y Ecco2k (20:15). La noche cierra con Danny L Harle y John Talabot hasta las 00:00.",
       "Domingo 29: The Strokes toca de 22:30 a 23:45 en el escenario Primavera. Antes, FKA twigs (19:50), Lily Allen (21:20), Courtney Barnett (17:50) y underscores (19:00).",
-      "Los argentinos, el sábado: El Nota (15:00, Primavera), Juliana Gattas (16:20, Primavera), Marilina Bertoldi (17:10, Heineken) y Jaime Sin Tierra (19:00, Barcelona).",
-      "Los argentinos, el domingo: Pizza (14:15, Barcelona), Fin del Mundo (14:30, Heineken), Santiago Motorizado (16:55, Heineken) y Juana Molina (18:45, Heineken).",
-      "Vamos a estar cubriendo el festival. Seguí la cobertura en nuestro Instagram."
+      "Artistas argentinos del sábado: El Nota (15:00, Primavera), Juliana Gattas (16:20, Primavera), Marilina Bertoldi (17:10, Heineken) y Jaime Sin Tierra (19:00, Barcelona).",
+      "Artistas argentinos del domingo: Fin del Mundo (14:30, Heineken), Santiago Motorizado (16:55, Heineken) y Juana Molina (18:45, Heineken).",
+      "Indie Popular cubrirá las dos jornadas. La cobertura se publicará en nuestro Instagram y en esta web."
     ],
     galeria: [
       "img/primavera-grilla-sabado.jpg",
@@ -65,15 +65,15 @@ const NOTAS = [
     id: "sonido-konex-diciembre-2026",
     categoria: "Agenda",
     fecha: "2026-11-23",
-    titulo: "Sonido Konex cierra el año con tres bandas emergentes",
+    titulo: "Sonido Konex cierra el año con Buenos Vampiros, Nina Suárez y Tomates en Verano",
     placa: "Sáb 5 dic · 19 h",
     placaDetalle: "Buenos Vampiros\nNina Suárez\nTomates en Verano\n\nSonido Konex · Abasto",
     bajada: "Buenos Vampiros, Nina Suárez y Tomates en Verano tocan el sábado 5 de diciembre en el Konex.",
     imagen: "",
     autor: "Indie Popular",
     cuerpo: [
-      "El ciclo de la Ciudad Cultural Konex dedicado a la escena emergente anunció su fecha de diciembre: será el sábado 5 a las 19 h.",
-      "La grilla reúne a tres proyectos: Buenos Vampiros, Nina Suárez y Tomates en Verano. Las entradas están a la venta en la ticketera oficial del Konex (Sarmiento 3131, Abasto)."
+      "Sonido Konex, el ciclo de la Ciudad Cultural Konex dedicado a la escena emergente, anunció su edición de diciembre: será el sábado 5 a las 19 h.",
+      "La fecha reúne a Buenos Vampiros, Nina Suárez y Tomates en Verano. Las entradas se venden a través de la ticketera oficial del Konex (Sarmiento 3131, Abasto)."
     ],
     fuentes: [
       { nombre: "Indie Hoy", url: "https://indiehoy.com/noticias/sonido-konex-en-diciembre-fecha-bandas-y-entradas-2026/" }
@@ -83,7 +83,7 @@ const NOTAS = [
     id: "quilmes-rock-2027-lineup",
     categoria: "Noticias",
     fecha: "2026-11-23",
-    titulo: "Quilmes Rock 2027 presentó su grilla",
+    titulo: "Quilmes Rock 2027 anunció sus primeros confirmados",
     placa: "16, 17 y 18 de abril",
     placaDetalle: "Babasónicos\nDivididos\nFito Páez\nLos Fabulosos Cadillacs\n+ homenaje a Spinetta",
     bajada: "Tres jornadas en abril con Babasónicos, Divididos, Fito Páez y un homenaje a Spinetta.",
@@ -91,10 +91,10 @@ const NOTAS = [
     credito: "Grilla oficial: Quilmes Rock / Popart Music",
     autor: "Indie Popular",
     cuerpo: [
-      "El festival se va a hacer el 16, 17 y 18 de abril de 2027, con entradas a la venta en EnigmaTickets.",
-      "Los primeros confirmados son Babasónicos, Divididos, Fito Páez, Jet, Los Fabulosos Cadillacs, Ratones Paranoicos, Los Auténticos Caligaris, Jorge Drexler, Las Pelotas y Henry & La Palangana.",
-      "Más abajo en la grilla aparecen Ángela Torres, Bandalos Chinos, Cruzando el Charco, Dante Spinetta, El Mató a un Policía Motorizado, Fricción, Kevin Johansen + The Nada, Los Cafres, Marilina Bertoldi, Turf y Virus, entre muchos otros. También está anunciado Spinetta x Malosetti.",
-      "De la escena más nueva figuran Winona Riders, Mi Amigo Invencible, Dum Chica, Babeblade, Pizza y Chechi de Marcos."
+      "El Quilmes Rock se realizará el 16, 17 y 18 de abril de 2027. Las entradas están a la venta en EnigmaTickets.",
+      "Encabezan el anuncio Babasónicos, Divididos, Fito Páez, Jet, Los Fabulosos Cadillacs, Ratones Paranoicos, Los Auténticos Caligaris, Jorge Drexler, Las Pelotas y Henry & La Palangana.",
+      "La grilla incluye además a Ángela Torres, Bandalos Chinos, Cruzando el Charco, Dante Spinetta, El Mató a un Policía Motorizado, Fricción, Kevin Johansen + The Nada, Los Cafres, Marilina Bertoldi, Turf y Virus, entre muchos otros. También está anunciado Spinetta x Malosetti.",
+      "También figuran Winona Riders, Mi Amigo Invencible, Dum Chica, Babeblade, Pizza y Chechi de Marcos."
     ],
     fuentes: [
       { nombre: "La Nación", url: "https://www.lanacion.com.ar/espectaculos/personajes/quilmes-rock-2027-se-anuncio-el-line-up-completo-del-festival-con-grandes-figuras-regresos-y-nid02112026/" },
@@ -110,7 +110,7 @@ const AGENDA = [
   { dia: "05/12", artista: "Sonido Konex: Buenos Vampiros, Nina Suárez, Tomates en Verano", lugar: "Ciudad Cultural Konex, Sarmiento 3131", hora: "19 h" }
 ];
 
-/* Artistas que pasaron por el Indie Popular (de los flyers) */
+/* Artistas que tocaron en los ciclos de Indie Popular (de los flyers) */
 const ARTISTAS = [
   "Tafio", "Un Negrito", "Gatos Rayados", "Clowns Band", "Un Viaje de Tyson",
   "Aky Heredia", "El Pure", "Iván B", "Domadores de Serpientes", "Vicky Ruggiero",
