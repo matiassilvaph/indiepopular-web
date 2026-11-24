@@ -87,12 +87,14 @@ const NOTAS = [
     placa: "16, 17 y 18 de abril",
     placaDetalle: "Babasónicos\nDivididos\nFito Páez\nLos Fabulosos Cadillacs\n+ homenaje a Spinetta",
     bajada: "Tres jornadas en abril con Babasónicos, Divididos, Fito Páez y un homenaje a Spinetta.",
-    imagen: "",
+    imagen: "img/quilmes-rock-2027-oficial.jpg",
+    credito: "Grilla oficial: Quilmes Rock / Popart Music",
     autor: "Indie Popular",
     cuerpo: [
-      "El festival se va a hacer el 16, 17 y 18 de abril de 2027.",
-      "Entre los nombres principales están Babasónicos, Divididos, Fito Páez, Los Fabulosos Cadillacs, Ratones Paranoicos, Jet, Jorge Drexler y Las Pelotas. También se anunció un homenaje a Luis Alberto Spinetta.",
-      "Del lado de la escena actual aparecen Bandalos Chinos, Winona Riders y Dum Chica, entre otros. Las entradas se venden por EnigmaTickets."
+      "El festival se va a hacer el 16, 17 y 18 de abril de 2027, con entradas a la venta en EnigmaTickets.",
+      "Los primeros confirmados son Babasónicos, Divididos, Fito Páez, Jet, Los Fabulosos Cadillacs, Ratones Paranoicos, Los Auténticos Caligaris, Jorge Drexler, Las Pelotas y Henry & La Palangana.",
+      "Más abajo en la grilla aparecen Ángela Torres, Bandalos Chinos, Cruzando el Charco, Dante Spinetta, El Mató a un Policía Motorizado, Fricción, Kevin Johansen + The Nada, Los Cafres, Marilina Bertoldi, Turf y Virus, entre muchos otros. También está anunciado Spinetta x Malosetti.",
+      "De la escena más nueva figuran Winona Riders, Mi Amigo Invencible, Dum Chica, Babeblade, Pizza y Chechi de Marcos."
     ],
     fuentes: [
       { nombre: "La Nación", url: "https://www.lanacion.com.ar/espectaculos/personajes/quilmes-rock-2027-se-anuncio-el-line-up-completo-del-festival-con-grandes-figuras-regresos-y-nid02112026/" },
