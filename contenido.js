@@ -3,7 +3,8 @@
    Para sumar una nota: copiá un bloque { ... } de NOTAS,
    pegalo ARRIBA de todo (la primera es la portada).
    imagen: ruta a una foto propia en img/ o "" para usar una placa de color.
-   placa: texto corto que va en la placa cuando no hay foto.
+   placa: dato corto y grande para la placa (fecha, lugar) cuando no hay foto.
+   placaDetalle: 3 a 5 líneas cortas separadas por \\n (artistas, lugar).
    ========================================================= */
 
 const CONFIG = {
@@ -39,36 +40,25 @@ const NOTAS = [
     ]
   },
   {
-    id: "primavera-sound-2026-cobertura",
-    categoria: "Cobertura",
-    fecha: "2026-11-24",
-    titulo: "Vamos al Primavera Sound Buenos Aires",
-    bajada: "Indie Popular va a cubrir el festival el 28 y 29 de noviembre en el Club Ciudad de Buenos Aires.",
-    imagen: "img/primavera.jpg",
-    credito: "Foto: Matías Silva",
-    autor: "Indie Popular",
-    cuerpo: [
-      "Este fin de semana vamos a estar en el Primavera Sound Buenos Aires con fotos, videos y entrevistas.",
-      "Seguí la cobertura en vivo en nuestro Instagram y acá en la web."
-    ]
-  },
-  {
     id: "primavera-sound-2026-grilla-por-dia",
     categoria: "Noticias",
     fecha: "2026-11-24",
-    titulo: "Primavera Sound BA: quién toca cada día",
-    placa: "Primavera Sound: la grilla por día",
-    bajada: "Gorillaz cierra el sábado y The Strokes el domingo. La escena argentina tiene lugar en las dos jornadas.",
-    imagen: "",
+    titulo: "Primavera Sound BA: los horarios de cada día",
+    bajada: "Gorillaz cierra el sábado a las 21:25 y The Strokes el domingo a las 22:30. La música arranca a las 14:15.",
+    imagen: "img/primavera-lineup-oficial.jpg",
+    credito: "Imágenes oficiales: Primavera Sound Buenos Aires / Popart Music",
     autor: "Indie Popular",
     cuerpo: [
-      "El festival vuelve a Buenos Aires el sábado 28 y el domingo 29 de noviembre, en el Club Ciudad de Buenos Aires (Núñez). Las entradas se venden por EnigmaTickets.",
-      "Sábado 28: Gorillaz, Yung Lean, CMAT, Danny L Harle, Nation of Language, Cara Delevingne, Ecco2k, Marilina Bertoldi, Jaime Sin Tierra, John Talabot, Juliana Gattas, Los Thuthanaka, Metrika, Model/Actriz, Nick León, Ambik, Babeblade, Chechi de Marcos, LISA SCHA, María Wolff, El Nota y Wiranda Johansen.",
-      "Domingo 29: The Strokes, FKA twigs, Lily Allen, Courtney Barnett, underscores, Juana Molina, Santiago Motorizado, Smerz, Juana Aguirre, Machine Girl, Mannequin Pussy, Sophia Stel, This Is Lorelei, Candelabro, Fin del Mundo, Pizza, Sunlid y Yevo.",
-      "Para nosotros, lo más atractivo está en los artistas argentinos: Marilina Bertoldi, Juana Molina, Santiago Motorizado, Juliana Gattas, El Nota, Fin del Mundo y Pizza, entre otros."
+      "El festival publicó los horarios para el sábado 28 y el domingo 29 de noviembre en el Club Ciudad de Buenos Aires, en Núñez. Hay tres escenarios: Heineken, Primavera y Barcelona. La música arranca a las 14:15 los dos días.",
+      "Sábado 28: Gorillaz toca de 21:25 a 22:55 en el escenario Heineken. Antes pasan Yung Lean (19:10), CMAT (20:15) y Ecco2k (20:15). La noche cierra con Danny L Harle y John Talabot hasta las 00:00.",
+      "Domingo 29: The Strokes toca de 22:30 a 23:45 en el escenario Primavera. Antes, FKA twigs (19:50), Lily Allen (21:20), Courtney Barnett (17:50) y underscores (19:00).",
+      "Los argentinos, el sábado: El Nota (15:00, Primavera), Juliana Gattas (16:20, Primavera), Marilina Bertoldi (17:10, Heineken) y Jaime Sin Tierra (19:00, Barcelona).",
+      "Los argentinos, el domingo: Pizza (14:15, Barcelona), Fin del Mundo (14:30, Heineken), Santiago Motorizado (16:55, Heineken) y Juana Molina (18:45, Heineken).",
+      "Vamos a estar cubriendo el festival. Seguí la cobertura en nuestro Instagram."
     ],
-    fuentes: [
-      { nombre: "La Nación", url: "https://www.lanacion.com.ar/que-sale/primavera-sound-confirmo-su-sede-en-buenos-aires-donde-tocan-gorillaz-y-the-strokes-nid04082026/" }
+    galeria: [
+      "img/primavera-grilla-sabado.jpg",
+      "img/primavera-grilla-domingo.jpg"
     ]
   },
   {
@@ -76,7 +66,8 @@ const NOTAS = [
     categoria: "Agenda",
     fecha: "2026-11-23",
     titulo: "Sonido Konex cierra el año con tres bandas emergentes",
-    placa: "Sonido Konex · 5 de diciembre",
+    placa: "Sáb 5 dic · 19 h",
+    placaDetalle: "Buenos Vampiros\nNina Suárez\nTomates en Verano\n\nSonido Konex · Abasto",
     bajada: "Buenos Vampiros, Nina Suárez y Tomates en Verano tocan el sábado 5 de diciembre en el Konex.",
     imagen: "",
     autor: "Indie Popular",
@@ -93,7 +84,8 @@ const NOTAS = [
     categoria: "Noticias",
     fecha: "2026-11-23",
     titulo: "Quilmes Rock 2027 presentó su grilla",
-    placa: "Quilmes Rock 2027",
+    placa: "16, 17 y 18 de abril",
+    placaDetalle: "Babasónicos\nDivididos\nFito Páez\nLos Fabulosos Cadillacs\n+ homenaje a Spinetta",
     bajada: "Tres jornadas en abril con Babasónicos, Divididos, Fito Páez y un homenaje a Spinetta.",
     imagen: "",
     autor: "Indie Popular",
@@ -111,8 +103,8 @@ const NOTAS = [
 
 /* Agenda de recitales. Borrá las fechas viejas. */
 const AGENDA = [
-  { dia: "28/11", artista: "Primavera Sound BA · día 1 (Gorillaz, Marilina Bertoldi, El Nota)", lugar: "Club Ciudad de Buenos Aires, Núñez", hora: "Sábado" },
-  { dia: "29/11", artista: "Primavera Sound BA · día 2 (The Strokes, Juana Molina, Santiago Motorizado)", lugar: "Club Ciudad de Buenos Aires, Núñez", hora: "Domingo" },
+  { dia: "28/11", artista: "Primavera Sound BA · día 1 (Gorillaz, Marilina Bertoldi, El Nota)", lugar: "Club Ciudad de Buenos Aires, Núñez", hora: "14:15 a 00:00" },
+  { dia: "29/11", artista: "Primavera Sound BA · día 2 (The Strokes, Juana Molina, Santiago Motorizado)", lugar: "Club Ciudad de Buenos Aires, Núñez", hora: "14:15 a 23:45" },
   { dia: "05/12", artista: "Sonido Konex: Buenos Vampiros, Nina Suárez, Tomates en Verano", lugar: "Ciudad Cultural Konex, Sarmiento 3131", hora: "19 h" }
 ];
 
