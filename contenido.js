@@ -54,12 +54,14 @@ const NOTAS = [
       "En Mejor Álbum de Rock Latino o Alternativo compiten tres discos argentinos: Free Spirits, de Ca7riel y Paco Amoroso; La vida era más corta, de Milo J, y Shine, de Fito Páez. Completan la categoría Taracá, de Jorge Drexler, y Juanesteban, de Juanes.",
       "Ca7riel y Paco Amoroso suman una segunda nominación: Mejor Grabación Remezclada, por «Beto's Horns», junto a Fred Again..",
       "En Mejor Álbum de Música Alternativa está nominado The Mountain, de Gorillaz, que encabeza el sábado 28 la primera jornada del Primavera Sound Buenos Aires. Compite con I Must Be Dreaming (Alabama Shakes), Lost Weekend (Phoebe Bridgers), Music, Fashion, Film (Charli XCX), Getting Killed (Geese) y Lux (Rosalía).",
+      "El Primavera Sound Buenos Aires destacó que cuatro artistas de su grilla están nominados: Gorillaz (Mejor Álbum de Música Alternativa), Lily Allen (Mejor Portada de Álbum), Yung Lean (Mejor Video Musical por «STORM», con GENER8ION) y underscores (Mejor Grabación de Dance/Electrónica). Todos tocan en el Club Ciudad el 28 y 29 de noviembre.",
       "En el total de candidaturas, RAYE lidera con once y Rosalía la sigue con nueve."
     ],
     fuentes: [
       { nombre: "NBC Chicago", url: "https://www.nbcchicago.com/entertainment/entertainment-news/2027-grammy-nominations-see-the-full-list/" },
       { nombre: "The Fader", url: "https://www.thefader.com/2026/11/16/2027-grammy-nominations-raye-underscores" },
-      { nombre: "Hypebeast", url: "https://hypebeast.com/it/2026/11/2027-69th-grammy-awards-nominations-full-list" }
+      { nombre: "Hypebeast", url: "https://hypebeast.com/it/2026/11/2027-69th-grammy-awards-nominations-full-list" },
+      { nombre: "Primavera Sound Buenos Aires (Instagram)", url: "https://www.instagram.com/primaverasoundbuenosaires/" }
     ]
   },
   {
