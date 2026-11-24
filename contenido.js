@@ -40,6 +40,29 @@ const NOTAS = [
     ]
   },
   {
+    id: "grammy-2027-nominados-argentinos-gorillaz",
+    categoria: "Noticias",
+    fecha: "2026-11-24",
+    titulo: "Grammy 2027: Ca7riel y Paco Amoroso, Milo J, Fito Páez y Gorillaz, entre los nominados",
+    placa: "Grammy 2027",
+    placaDetalle: "Ca7riel y Paco Amoroso\nMilo J\nFito Páez\nGorillaz\n\n7 de febrero · Los Ángeles",
+    bajada: "Tres discos argentinos compiten en Mejor Álbum de Rock Latino o Alternativo. La ceremonia será el 7 de febrero en Los Ángeles.",
+    imagen: "",
+    autor: "Indie Popular",
+    cuerpo: [
+      "La Academia de la Grabación de Estados Unidos anunció el 16 de noviembre los nominados a la 69.ª edición de los premios Grammy. La ceremonia se realizará el domingo 7 de febrero de 2027 en el Crypto.com Arena de Los Ángeles.",
+      "En Mejor Álbum de Rock Latino o Alternativo compiten tres discos argentinos: Free Spirits, de Ca7riel y Paco Amoroso; La vida era más corta, de Milo J, y Shine, de Fito Páez. Completan la categoría Taracá, de Jorge Drexler, y Juanesteban, de Juanes.",
+      "Ca7riel y Paco Amoroso suman una segunda nominación: Mejor Grabación Remezclada, por «Beto's Horns», junto a Fred Again..",
+      "En Mejor Álbum de Música Alternativa está nominado The Mountain, de Gorillaz, que encabeza el sábado 28 la primera jornada del Primavera Sound Buenos Aires. Compite con I Must Be Dreaming (Alabama Shakes), Lost Weekend (Phoebe Bridgers), Music, Fashion, Film (Charli XCX), Getting Killed (Geese) y Lux (Rosalía).",
+      "En el total de candidaturas, RAYE lidera con once y Rosalía la sigue con nueve."
+    ],
+    fuentes: [
+      { nombre: "NBC Chicago", url: "https://www.nbcchicago.com/entertainment/entertainment-news/2027-grammy-nominations-see-the-full-list/" },
+      { nombre: "The Fader", url: "https://www.thefader.com/2026/11/16/2027-grammy-nominations-raye-underscores" },
+      { nombre: "Hypebeast", url: "https://hypebeast.com/it/2026/11/2027-69th-grammy-awards-nominations-full-list" }
+    ]
+  },
+  {
     id: "primavera-sound-2026-grilla-por-dia",
     categoria: "Noticias",
     fecha: "2026-11-24",
