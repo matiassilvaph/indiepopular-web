@@ -147,15 +147,20 @@ const NOTAS = [
     placa: "Sáb 5 dic · 19 h",
     placaDetalle: "Buenos Vampiros\nNina Suárez\nTomates en Verano\n\nSonido Konex · Abasto",
     bajada: "Buenos Vampiros, Nina Suárez y Tomates en Verano tocan el sábado 5 de diciembre en el Konex.",
-    imagen: "img/noticias/nina-suarez.jpg",
-    credito: "Nina Suárez. Foto: difusión.",
+    imagen: "img/noticias/buenos-vampiros.jpg",
+    credito: "Buenos Vampiros. Foto: @shootingtobi.",
+    galeria: ["img/noticias/nina-suarez.jpg", "img/noticias/tomates-en-verano.jpg"],
+    creditoGaleria: "Nina Suárez (foto: difusión). Tomates en Verano y Pezcuis (foto: @shootingtobi).",
     autor: "Indie Popular",
     cuerpo: [
       "Sonido Konex, el ciclo de la Ciudad Cultural Konex dedicado a la escena emergente, anunció su edición de diciembre: será el sábado 5 a las 19 h.",
-      "La fecha reúne a Buenos Vampiros, Nina Suárez y Tomates en Verano. Las entradas se venden a través de la ticketera oficial del Konex (Sarmiento 3131, Abasto)."
+      "La fecha reúne a Buenos Vampiros, Nina Suárez y Tomates en Verano. Las entradas se venden a través de la ticketera oficial del Konex (Sarmiento 3131, Abasto).",
+      "La fecha, presentada por Casa del Puente Discos y Sonido Konex, es la presentación en vivo de El último disparo, el cuarto disco de Buenos Vampiros, publicado en septiembre de 2026 y grabado en enero en Mar del Plata. Para Tomates en Verano será el cierre de su año."
     ],
     fuentes: [
-      { nombre: "Indie Hoy", url: "https://indiehoy.com/noticias/sonido-konex-en-diciembre-fecha-bandas-y-entradas-2026/" }
+      { nombre: "Indie Hoy", url: "https://indiehoy.com/noticias/sonido-konex-en-diciembre-fecha-bandas-y-entradas-2026/" },
+      { nombre: "Instagram de Buenos Vampiros", url: "https://www.instagram.com/buenosvampiros/" },
+      { nombre: "Instagram de Casa del Puente Discos", url: "https://www.instagram.com/casadelpuentediscos/" }
     ]
   },
   {
