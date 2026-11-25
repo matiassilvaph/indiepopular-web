@@ -113,7 +113,10 @@ const NOTAS = [
     placa: "Is This It",
     placaDetalle: "The Strokes · 2001\nOtra tapa en Estados Unidos\nUna canción reemplazada\nDespués del 11 de septiembre",
     bajada: "La edición estadounidense del debut de The Strokes cambió la tapa, se demoró dos semanas y reemplazó «New York City Cops» por «When It Started».",
-    imagen: "",
+    imagen: "img/noticias/is-this-it-original.jpg",
+    credito: "Tapa original de Is This It. Foto: Colin Lane.",
+    galeria: ["img/noticias/is-this-it-eeuu.jpg"],
+    creditoGaleria: "Tapa de la edición estadounidense de Is This It.",
     autor: "Indie Popular",
     cuerpo: [
       "Is This It, el primer disco de The Strokes, salió en Australia a fines de julio de 2001 y en el Reino Unido el 27 de agosto, donde debutó en el puesto 2 del ranking de álbumes. En Estados Unidos, el país de la banda, iba a publicarse el 25 de septiembre. Los atentados del 11 de septiembre en Nueva York cambiaron ese plan.",
