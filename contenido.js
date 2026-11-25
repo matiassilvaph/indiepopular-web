@@ -16,6 +16,29 @@ const CONFIG = {
 /* categoria: "Noticias" | "Descubrir" | "Entrevistas" | "Cobertura" | "Agenda" */
 const NOTAS = [
   {
+    id: "santiago-motorizado-deseo-diciembre-2026",
+    categoria: "Noticias",
+    fecha: "2026-11-24",
+    titulo: "Santiago Motorizado cierra la gira de El Retorno en Deseo: últimas entradas",
+    placa: "Santiago Motorizado",
+    placaDetalle: "Cierre de El Retorno\n\nViernes 4 de diciembre\nDeseo · 21 h",
+    bajada: "El cantante de El Mató a un Policía Motorizado despide el viernes 4 de diciembre en Deseo la gira de su primer disco solista.",
+    imagen: "img/noticias/santiago-motorizado-flyer.jpg",
+    credito: "Santiago Motorizado. Imagen: flyer oficial.",
+    autor: "Indie Popular",
+    cuerpo: [
+      "Santiago Motorizado se presentará el viernes 4 de diciembre a las 21 h en Deseo (Av. Chorroarín 1040) para cerrar la gira de El Retorno, su primer álbum solista. Quedan las últimas entradas, según anunció el propio músico en sus redes.",
+      "El Retorno, publicado en 2025, reúne canciones que el líder de El Mató a un Policía Motorizado compuso en distintas épocas de su vida. La gira pasó por Argentina, México y Europa, y tuvo su presentación porteña en el Teatro Gran Rex, con Dillom y Blair como invitados.",
+      "«Más allá del final de la Gira del Retorno, estas canciones las vengo tocando hace muchos años, pero llegó el final», escribió Santiago al anunciar la fecha, a la que llamó «la celebración final».",
+      "Antes, el domingo 29 de noviembre, tocará a las 16:55 en el escenario Heineken del Primavera Sound Buenos Aires. Las entradas para Deseo se venden por EnigmaTickets."
+    ],
+    fuentes: [
+      { nombre: "Instagram de Santiago Motorizado", url: "https://www.instagram.com/santiagomotorizado/" },
+      { nombre: "Indie Hoy (agenda)", url: "https://indiehoy.com/?p=876752" },
+      { nombre: "Rolling Stone en Español", url: "https://es.rollingstone.com/arg-el-gesto-de-gloria-de-santiago-motorizado-en-su-primer-gran-rex/" }
+    ]
+  },
+  {
     id: "trueno-movistar-arena-abril-2027",
     categoria: "Noticias",
     fecha: "2026-11-24",
@@ -207,7 +230,7 @@ const AGENDA = [
   { dia: "03/12", artista: "Of Monsters and Men", lugar: "C Art Media, Chacarita", hora: "A confirmar" },
   { dia: "03/12", artista: "Jaime Sin Tierra", lugar: "Deseo, Buenos Aires", hora: "A confirmar" },
   { dia: "04/12", artista: "Mi Amigo Invencible", lugar: "Niceto Club, Palermo", hora: "A confirmar" },
-  { dia: "04/12", artista: "Santiago Motorizado", lugar: "Deseo, Buenos Aires", hora: "A confirmar" },
+  { dia: "04/12", artista: "Santiago Motorizado (cierre de El Retorno)", lugar: "Deseo, Paternal", hora: "21 h" },
   { dia: "05/12", artista: "Sonido Konex: Buenos Vampiros, Nina Suárez, Tomates en Verano", lugar: "Ciudad Cultural Konex, Sarmiento 3131", hora: "19 h" },
   { dia: "05/12", artista: "Popfest", lugar: "Parque Norte", hora: "A confirmar" },
   { dia: "05/12", artista: "Daniel Caesar", lugar: "Estadio Obras Sanitarias, Núñez", hora: "A confirmar" },
