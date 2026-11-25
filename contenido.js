@@ -16,6 +16,27 @@ const CONFIG = {
 /* categoria: "Noticias" | "Descubrir" | "Entrevistas" | "Cobertura" | "Agenda" */
 const NOTAS = [
   {
+    id: "las-sombras-hestald-cc-matienzo-noviembre-2026",
+    categoria: "Agenda",
+    fecha: "2026-11-25",
+    titulo: "Las Sombras y Hestald tocan este viernes en CC Matienzo",
+    placa: "Las Sombras + Hestald",
+    placaDetalle: "Viernes 27 de noviembre\n21 h\nCC Matienzo",
+    bajada: "Las Sombras comparten fecha con Hestald el viernes 27 de noviembre a las 21 h en el Centro Cultural Matienzo.",
+    imagen: "img/noticias/las-sombras.jpg",
+    credito: "Las Sombras. Foto: Instagram oficial de la banda.",
+    galeria: ["img/noticias/hestald.jpg"],
+    creditoGaleria: "Hestald. Foto: Instagram oficial de Las Sombras.",
+    autor: "Indie Popular",
+    cuerpo: [
+      "Las Sombras se presentan el viernes 27 de noviembre en el Centro Cultural Matienzo, en la Ciudad de Buenos Aires, junto a Hestald. La puerta abre a las 21 h y las entradas se consiguen a través del enlace de la cuenta oficial de la banda.",
+      "La banda, formada por músicos pampeanos, anunció además que tocará en Lollapalooza Argentina 2027."
+    ],
+    fuentes: [
+      { nombre: "Instagram de Las Sombras", url: "https://www.instagram.com/las.sombras/" }
+    ]
+  },
+  {
     id: "el-mato-a-un-policia-motorizado-c-art-media-2026",
     categoria: "Noticias",
     fecha: "2026-11-24",
@@ -284,6 +305,7 @@ const AGENDA = [
   { dia: "26/11", artista: "Underworld", lugar: "Mandarine Park, Costanera Norte", hora: "A confirmar" },
   { dia: "27/11", artista: "Barbi Recanati", lugar: "Niceto Club, Palermo", hora: "A confirmar" },
   { dia: "27/11", artista: "Eruca Sativa", lugar: "C Art Media, Chacarita", hora: "A confirmar" },
+  { dia: "27/11", artista: "Las Sombras + Hestald", lugar: "CC Matienzo, CABA", hora: "21 h" },
   { dia: "28/11", artista: "A Perfect Circle", lugar: "Estadio Malvinas Argentinas, Paternal", hora: "A confirmar" },
   { dia: "28/11", artista: "Primavera Sound BA · día 1 (Gorillaz, Marilina Bertoldi, El Nota)", lugar: "Club Ciudad de Buenos Aires, Núñez", hora: "14:15 a 00:00" },
   { dia: "28/11", artista: "El Hombre Gris + Iriart y las Chicas del Té (gratis)", lugar: "ILA Bar, San Miguel", hora: "21 h" },
