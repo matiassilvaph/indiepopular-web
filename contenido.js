@@ -332,6 +332,7 @@ const AGENDA = [
   { dia: "06/02", artista: "María Becerra (también 7 de febrero)", lugar: "Movistar Arena, Villa Crespo", hora: "21 h" },
   { dia: "06/02", artista: "Cosquín Rock 2027 (6 y 7 de febrero)", lugar: "Aeródromo de Santa María de Punilla, Córdoba", hora: "A confirmar" },
   { dia: "25/02", artista: "Foo Fighters", lugar: "Estadio River Plate, Núñez", hora: "A confirmar" },
+  { dia: "26/02", artista: "LP (All Is Not Lost Tour)", lugar: "Estadio Obras Sanitarias, Núñez", hora: "A confirmar" },
   { dia: "03/03", artista: "Placebo", lugar: "Estadio Malvinas Argentinas, Paternal", hora: "A confirmar" },
   { dia: "12/03", artista: "Lollapalooza Argentina 2027 (12, 13 y 14 de marzo)", lugar: "Hipódromo de San Isidro", hora: "A confirmar" },
   { dia: "23/03", artista: "Kasabian", lugar: "C Art Media, Chacarita", hora: "A confirmar" },
