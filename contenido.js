@@ -92,7 +92,10 @@ const NOTAS = [
     placa: "Lollapalooza 2027",
     placaDetalle: "Vie 12: The Killers · Fontaines D.C.\nSáb 13: Travis Scott · Queens of the Stone Age\nDom 14: Charli xcx · Cage the Elephant\nHipódromo de San Isidro",
     bajada: "The Killers el viernes 12, Travis Scott y TINI el sábado 13, Charli xcx el domingo 14 de marzo. Las Sombras tocan el viernes.",
-    imagen: "",
+    imagen: "img/noticias/lollapalooza-2027-grilla.jpg",
+    credito: "Grilla oficial de Lollapalooza Argentina 2027.",
+    galeria: ["img/noticias/las-sombras-2.jpg"],
+    creditoGaleria: "Las Sombras, que tocan el viernes 12. Foto: Instagram oficial de la banda.",
     autor: "Indie Popular",
     cuerpo: [
       "Lollapalooza Argentina 2027 se hará el viernes 12, el sábado 13 y el domingo 14 de marzo en el Hipódromo de San Isidro. El festival ya publicó qué artistas tocan cada día y las entradas diarias están a la venta por All Access.",
