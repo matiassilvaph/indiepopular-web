@@ -45,7 +45,8 @@ const NOTAS = [
     placa: "Attaque 77",
     placaDetalle: "40 años\nViernes 23 de abril de 2027\nMovistar Arena\nEntradas: $77.000 · venta desde el 1/12",
     bajada: "Attaque 77 toca el viernes 23 de abril de 2027 en el Movistar Arena por sus 40 años. Entradas a $77.000 desde el martes 1 de diciembre.",
-    imagen: "",
+    imagen: "img/noticias/attaque-77.jpg",
+    credito: "Attaque 77. Foto: prensa.",
     autor: "Indie Popular",
     cuerpo: [
       "Attaque 77 celebrará sus 40 años con un show el viernes 23 de abril de 2027 en el Movistar Arena (Humboldt 450, Villa Crespo). Las entradas tienen un valor único de $77.000 para todos los sectores y salen a la venta el martes 1 de diciembre a las 13 en la web del estadio.",
