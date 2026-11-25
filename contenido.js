@@ -16,6 +16,29 @@ const CONFIG = {
 /* categoria: "Noticias" | "Descubrir" | "Entrevistas" | "Cobertura" | "Agenda" */
 const NOTAS = [
   {
+    id: "pixies-movistar-arena-abril-2027",
+    categoria: "Noticias",
+    fecha: "2026-11-25",
+    titulo: "Pixies en el Movistar Arena: fecha, entradas y la gira sudamericana de 2027",
+    placa: "Pixies",
+    placaDetalle: "Domingo 4 de abril de 2027\nMovistar Arena\nEntradas desde $75.000",
+    bajada: "La banda de Black Francis toca el domingo 4 de abril de 2027 en el Movistar Arena. Las entradas están a la venta desde $75.000.",
+    imagen: "img/noticias/pixies.jpg",
+    credito: "Pixies. Foto: prensa (Indie Folks).",
+    autor: "Indie Popular",
+    cuerpo: [
+      "Pixies se presentará el domingo 4 de abril de 2027 en el Movistar Arena (Humboldt 450, Villa Crespo). Las entradas, desde $75.000, se venden a través de la web del estadio. El show lo presenta Indie Folks.",
+      "Será la cuarta visita de la banda de Boston a la Argentina desde su debut en el país en 2010, y la primera en cinco años.",
+      "La fecha forma parte de una gira por Sudamérica que incluye Santiago de Chile (29 de marzo), São Paulo (9 de abril), Lima (15 de abril) y Bogotá (17 de abril)."
+    ],
+    fuentes: [
+      { nombre: "Consequence", url: "https://concerts.consequence.net/articles/pixies-return-to-argentina-2027" },
+      { nombre: "Indie Hoy", url: "https://indiehoy.com/recitales/pixies-en-argentina-fecha-lugar-y-entradas/" },
+      { nombre: "Tiempo Argentino", url: "https://www.tiempoar.com.ar/ta_article/pixies-argentina/" },
+      { nombre: "Billboard Brasil", url: "https://billboard.com.br/pixies-volta-ao-brasil-para-show-unico-em-2027/" }
+    ]
+  },
+  {
     id: "las-sombras-hestald-cc-matienzo-noviembre-2026",
     categoria: "Agenda",
     fecha: "2026-11-25",
@@ -338,7 +361,7 @@ const AGENDA = [
   { dia: "23/03", artista: "Kasabian", lugar: "C Art Media, Chacarita", hora: "A confirmar" },
   { dia: "23/03", artista: "U2 (también 25 y 27 de marzo)", lugar: "Estadio River Plate, Núñez", hora: "A confirmar" },
   { dia: "01/04", artista: "Jungle", lugar: "Movistar Arena, Villa Crespo", hora: "A confirmar" },
-  { dia: "04/04", artista: "Pixies", lugar: "Movistar Arena, Villa Crespo", hora: "A confirmar" },
+  { dia: "04/04", artista: "Pixies", lugar: "Movistar Arena, Villa Crespo", hora: "A confirmar · desde $75.000" },
   { dia: "11/04", artista: "Trueno (TURR4ZO World Tour)", lugar: "Movistar Arena, Villa Crespo", hora: "A confirmar" },
   { dia: "16/04", artista: "Quilmes Rock 2027 (16, 17 y 18 de abril)", lugar: "A confirmar", hora: "A confirmar" },
   { dia: "22/05", artista: "El Cuarteto de Nos", lugar: "Movistar Arena, Villa Crespo", hora: "21 h" },
