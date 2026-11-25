@@ -68,7 +68,8 @@ const NOTAS = [
     placa: "Johnny Marr",
     placaDetalle: "The Age of Everything\nJueves 26 de noviembre\nC Art Media, Chacarita\nEntradas: Passline",
     bajada: "El exguitarrista de The Smiths toca el jueves 26 de noviembre en C Art Media, Chacarita, con las canciones de su quinto disco solista.",
-    imagen: "",
+    imagen: "img/noticias/johnny-marr.jpg",
+    credito: "Johnny Marr. Foto: Instagram oficial del artista.",
     autor: "Indie Popular",
     cuerpo: [
       "Johnny Marr se presenta el jueves 26 de noviembre en el Complejo C Art Media (Av. Corrientes 6271, Chacarita). Las entradas se venden por Passline y, según la agenda de Indie Hoy, parten de $95.000.",
