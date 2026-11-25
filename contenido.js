@@ -16,6 +16,28 @@ const CONFIG = {
 /* categoria: "Noticias" | "Descubrir" | "Entrevistas" | "Cobertura" | "Agenda" */
 const NOTAS = [
   {
+    id: "attaque-77-movistar-arena-2027",
+    categoria: "Noticias",
+    fecha: "2026-11-25",
+    titulo: "Attaque 77 celebra sus 40 años en el Movistar Arena: fecha, precio y venta de entradas",
+    placa: "Attaque 77",
+    placaDetalle: "40 años\nViernes 23 de abril de 2027\nMovistar Arena\nEntradas: $77.000 · venta desde el 1/12",
+    bajada: "Attaque 77 toca el viernes 23 de abril de 2027 en el Movistar Arena por sus 40 años. Entradas a $77.000 desde el martes 1 de diciembre.",
+    imagen: "",
+    autor: "Indie Popular",
+    cuerpo: [
+      "Attaque 77 celebrará sus 40 años con un show el viernes 23 de abril de 2027 en el Movistar Arena (Humboldt 450, Villa Crespo). Las entradas tienen un valor único de $77.000 para todos los sectores y salen a la venta el martes 1 de diciembre a las 13 en la web del estadio.",
+      "La banda sube al escenario con la formación de Mariano Martínez (voz y guitarra), Luciano Scaglione (bajo) y Leonardo De Cecco (batería). Attaque 77 se formó en 1987 en Buenos Aires y tiene más de quince discos, entre ellos El cielo puede esperar (1990), el de \"Hacelo por mí\". Su último álbum de estudio es Triángulo de fuerza (2019).",
+      "El aniversario también pasará por el festival Vive Latino, en la Ciudad de México, en marzo de 2027."
+    ],
+    fuentes: [
+      { nombre: "Ámbito", url: "https://www.ambito.com/espectaculos/attaque-77-celebra-sus-40-anos-un-show-buenos-aires-como-y-donde-comprar-las-entradas-n6349048" },
+      { nombre: "La Coope 102.7", url: "https://www.lacoope.net/musica/attaque-77-vuelve-escenarios-celebra-sus-40-anos-movistar-arena-n23677" },
+      { nombre: "Filo.news", url: "https://www.filo.news/noticia/2026/11/25/vuelve-attaque-77-y-festeja-sus-40-anos" },
+      { nombre: "Rocktambulos", url: "https://rocktambulos.com/attaque-77-vuelve-a-los-escenarios-y-celebrara-sus-40-anos/" }
+    ]
+  },
+  {
     id: "pixies-movistar-arena-abril-2027",
     categoria: "Noticias",
     fecha: "2026-11-25",
@@ -364,6 +386,8 @@ const AGENDA = [
   { dia: "04/04", artista: "Pixies", lugar: "Movistar Arena, Villa Crespo", hora: "A confirmar · desde $75.000" },
   { dia: "11/04", artista: "Trueno (TURR4ZO World Tour)", lugar: "Movistar Arena, Villa Crespo", hora: "A confirmar" },
   { dia: "16/04", artista: "Quilmes Rock 2027 (16, 17 y 18 de abril)", lugar: "A confirmar", hora: "A confirmar" },
+  { dia: "23/04", artista: "Attaque 77 (40 años)", lugar: "Movistar Arena, Villa Crespo", hora: "A confirmar · $77.000" },
+  { dia: "11/05", artista: "Simple Plan + All Time Low", lugar: "Estadio Obras Sanitarias, Núñez", hora: "A confirmar" },
   { dia: "22/05", artista: "El Cuarteto de Nos", lugar: "Movistar Arena, Villa Crespo", hora: "21 h" },
   { dia: "27/05", artista: "Beth Gibbons", lugar: "C Art Media, Chacarita", hora: "A confirmar" },
   { dia: "07/11/2027", artista: "Faith No More + Alice In Chains + Mastodon", lugar: "Estadio Ferro, Caballito", hora: "A confirmar" }
