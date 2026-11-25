@@ -230,7 +230,7 @@ const AGENDA = [
   { dia: "03/12", artista: "Of Monsters and Men", lugar: "C Art Media, Chacarita", hora: "A confirmar" },
   { dia: "03/12", artista: "Jaime Sin Tierra", lugar: "Deseo, Buenos Aires", hora: "A confirmar" },
   { dia: "04/12", artista: "Mi Amigo Invencible", lugar: "Niceto Club, Palermo", hora: "A confirmar" },
-  { dia: "04/12", artista: "Santiago Motorizado (cierre de El Retorno)", lugar: "Deseo, Paternal", hora: "21 h" },
+  { dia: "04/12", artista: "Santiago Motorizado (cierre de El Retorno)", lugar: "Deseo, Av. Chorroarín 1040", hora: "21 h" },
   { dia: "05/12", artista: "Sonido Konex: Buenos Vampiros, Nina Suárez, Tomates en Verano", lugar: "Ciudad Cultural Konex, Sarmiento 3131", hora: "19 h" },
   { dia: "05/12", artista: "Popfest", lugar: "Parque Norte", hora: "A confirmar" },
   { dia: "05/12", artista: "Daniel Caesar", lugar: "Estadio Obras Sanitarias, Núñez", hora: "A confirmar" },
