@@ -23,7 +23,8 @@ const NOTAS = [
     placa: "Él Mató · C Art Media",
     placaDetalle: "Martes 15 y miércoles 16\nde diciembre\n\nC Art Media, Chacarita\nEntradas: Passline",
     bajada: "La banda hace dos shows el 15 y 16 de diciembre en C Art Media, Chacarita, y cierra el año el 19 en el Hipódromo de La Plata.",
-    imagen: "",
+    imagen: "img/noticias/el-mato.jpg",
+    credito: "Él Mató a un Policía Motorizado. Foto: Instagram oficial de la banda.",
     autor: "Indie Popular",
     cuerpo: [
       "Él Mató a un Policía Motorizado se presentará el martes 15 y el miércoles 16 de diciembre en el Complejo C Art Media (Av. Corrientes 6271, Chacarita). Las entradas se venden por Passline, en localidad única de pie.",
