@@ -38,6 +38,72 @@ const NOTAS = [
     ]
   },
   {
+    id: "johnny-marr-c-art-media-noviembre-2026",
+    categoria: "Agenda",
+    fecha: "2026-11-25",
+    titulo: "Johnny Marr presenta The Age of Everything este jueves en C Art Media",
+    placa: "Johnny Marr",
+    placaDetalle: "The Age of Everything\nJueves 26 de noviembre\nC Art Media, Chacarita\nEntradas: Passline",
+    bajada: "El exguitarrista de The Smiths toca el jueves 26 de noviembre en C Art Media, Chacarita, con las canciones de su quinto disco solista.",
+    imagen: "",
+    autor: "Indie Popular",
+    cuerpo: [
+      "Johnny Marr se presenta el jueves 26 de noviembre en el Complejo C Art Media (Av. Corrientes 6271, Chacarita). Las entradas se venden por Passline y, según la agenda de Indie Hoy, parten de $95.000.",
+      "El guitarrista llega con The Age of Everything, su quinto álbum de estudio como solista, que salió el 2 de octubre con diez canciones. El primer adelanto fue «Spin».",
+      "Marr fue guitarrista de The Smiths. Además de su carrera solista, colaboró con Pet Shop Boys y participó junto a Hans Zimmer en la música de No Time to Die, la película de James Bond.",
+      "La fecha abre una semana cargada en Buenos Aires: el sábado 28 y el domingo 29 se hace el Primavera Sound en el Club Ciudad, y el martes 1 de diciembre New Order toca en Mandarine Park."
+    ],
+    fuentes: [
+      { nombre: "Indie Hoy", url: "https://indiehoy.com/recitales/johnny-marr-vuelve-a-la-argentina-fecha-lugar-y-entradas/" },
+      { nombre: "Indie Hoy (agenda)", url: "https://indiehoy.com/agenda/johnny-marr-argentina-2026/" },
+      { nombre: "Tiempo Argentino", url: "https://www.tiempoar.com.ar/ta_article/johnny-marr-argentina/" }
+    ]
+  },
+  {
+    id: "lollapalooza-argentina-2027-grilla-por-dia",
+    categoria: "Noticias",
+    fecha: "2026-11-25",
+    titulo: "Lollapalooza Argentina 2027: quién toca cada día en el Hipódromo de San Isidro",
+    placa: "Lollapalooza 2027",
+    placaDetalle: "Vie 12: The Killers · Fontaines D.C.\nSáb 13: Travis Scott · Queens of the Stone Age\nDom 14: Charli xcx · Cage the Elephant\nHipódromo de San Isidro",
+    bajada: "The Killers el viernes 12, Travis Scott y TINI el sábado 13, Charli xcx el domingo 14 de marzo. Las Sombras tocan el viernes.",
+    imagen: "",
+    autor: "Indie Popular",
+    cuerpo: [
+      "Lollapalooza Argentina 2027 se hará el viernes 12, el sábado 13 y el domingo 14 de marzo en el Hipódromo de San Isidro. El festival ya publicó qué artistas tocan cada día y las entradas diarias están a la venta por All Access.",
+      "Viernes 12: The Killers, The Neighbourhood, Fontaines D.C., The Prodigy, Dillom, RAYE, Malcolm Todd, ADÉLA y Boys Noize, entre otros. Ese día también toca Las Sombras, junto a Kchiporros, Natalia Lacunza, Joaco Burgos, Sol Porro y Pato Mallet.",
+      "Sábado 13: Travis Scott, TINI, Queens of the Stone Age, Rawayana, Geese, SLAYYYTER, Four Tet, Angine de Poitrine, Die Spitz, Un Poco de Ruido, Francisca Valenzuela, Juana Rozas, Ara y Hellolola, entre otros.",
+      "Domingo 14: Charli xcx, David Guetta, Sombr, Dominic Fike, Cage the Elephant, Lola Young, Leon Bridges, The Avalanches, Boy Harsher, Snow Strippers, Usted Señalemelo, Daniela Spalla, Violet Grohl y La Ramona, entre otros.",
+      "La entrada de un día en preventa 1 cuesta $195.000 más cargo por servicio, según Perfil. También se vende el abono para las tres jornadas."
+    ],
+    fuentes: [
+      { nombre: "Perfil", url: "https://perfil.com/entretenimiento/lollapalooza-argentina-2027-confirmo-su-grilla-dia-por-dia-quienes-tocan-y-como-comprar-entradas-a50-ahE1f9A0JDUP" },
+      { nombre: "Indie Hoy", url: "https://indiehoy.com/noticias/lollapalooza-argentina-2027-anuncia-su-lineup-por-dia/" }
+    ]
+  },
+  {
+    id: "the-strokes-is-this-it-edicion-estados-unidos-curiosidad",
+    categoria: "Descubrir",
+    fecha: "2026-11-25",
+    titulo: "The Strokes: por qué Is This It salió distinto en Estados Unidos",
+    placa: "Is This It",
+    placaDetalle: "The Strokes · 2001\nOtra tapa en Estados Unidos\nUna canción reemplazada\nDespués del 11 de septiembre",
+    bajada: "La edición estadounidense del debut de The Strokes cambió la tapa, se demoró dos semanas y reemplazó «New York City Cops» por «When It Started».",
+    imagen: "",
+    autor: "Indie Popular",
+    cuerpo: [
+      "Is This It, el primer disco de The Strokes, salió en Australia a fines de julio de 2001 y en el Reino Unido el 27 de agosto, donde debutó en el puesto 2 del ranking de álbumes. En Estados Unidos, el país de la banda, iba a publicarse el 25 de septiembre. Los atentados del 11 de septiembre en Nueva York cambiaron ese plan.",
+      "La edición estadounidense en CD se postergó hasta el 9 de octubre y perdió una canción: «New York City Cops», cuyo estribillo dice que los policías de la ciudad no son muy inteligentes. La banda decidió reemplazarla por «When It Started» después de ver la respuesta de la policía neoyorquina durante la tragedia. El vinilo estadounidense conservó el tema original.",
+      "La tapa también es otra. En el resto del mundo, el disco muestra una foto de Colin Lane: la cadera de una mujer, su novia de entonces, con una mano enfundada en un guante de cuero apoyada encima. En Estados Unidos se usó una imagen de partículas subatómicas en una cámara de burbujas, que antes había aparecido en The Nature of Things (1988), un disco de Bruce BecVar.",
+      "The Strokes toca el domingo 29 de noviembre a las 22:30 en el escenario Primavera del Primavera Sound Buenos Aires, en el Club Ciudad."
+    ],
+    fuentes: [
+      { nombre: "Wikipedia (Is This It)", url: "https://en.wikipedia.org/wiki/When_It_Started" },
+      { nombre: "NME", url: "https://www.nme.com/blogs/nme-blogs/the-strokes-is-this-it-facts-769267" },
+      { nombre: "InsideHook", url: "https://www.insidehook.com/music/9-11-alters-debut" }
+    ]
+  },
+  {
     id: "attaque-77-movistar-arena-2027",
     categoria: "Noticias",
     fecha: "2026-11-25",
@@ -349,6 +415,7 @@ const AGENDA = [
   { dia: "26/11", artista: "Johnny Marr", lugar: "C Art Media, Chacarita", hora: "A confirmar" },
   { dia: "26/11", artista: "Gorillaz", lugar: "Estadio Mario Alberto Kempes, Córdoba", hora: "A confirmar" },
   { dia: "26/11", artista: "Underworld", lugar: "Mandarine Park, Costanera Norte", hora: "A confirmar" },
+  { dia: "26/11", artista: "Militarie Gun", lugar: "Uniclub, Almagro", hora: "A confirmar" },
   { dia: "27/11", artista: "Barbi Recanati", lugar: "Niceto Club, Palermo", hora: "A confirmar" },
   { dia: "27/11", artista: "Eruca Sativa", lugar: "C Art Media, Chacarita", hora: "A confirmar" },
   { dia: "27/11", artista: "Las Sombras + Hestald", lugar: "CC Matienzo, CABA", hora: "21 h" },
@@ -374,6 +441,7 @@ const AGENDA = [
   { dia: "15/12", artista: "Él Mató a un Policía Motorizado (también 16 de diciembre)", lugar: "C Art Media, Chacarita", hora: "A confirmar" },
   { dia: "19/12", artista: "Él Mató a un Policía Motorizado (Noches Capitales)", lugar: "Hipódromo de La Plata, La Plata", hora: "A confirmar" },
   { dia: "15/01", artista: "Rush", lugar: "Movistar Arena, Villa Crespo", hora: "A confirmar" },
+  { dia: "20/01", artista: "Festival Levitation: Melvins, Osees, Boris, Frankie and the Witch Fingers, Winona Riders", lugar: "Ciudad Cultural Konex, Abasto", hora: "A confirmar" },
   { dia: "05/02", artista: "Jack Johnson", lugar: "Movistar Arena, Villa Crespo", hora: "A confirmar" },
   { dia: "06/02", artista: "María Becerra (también 7 de febrero)", lugar: "Movistar Arena, Villa Crespo", hora: "21 h" },
   { dia: "06/02", artista: "Cosquín Rock 2027 (6 y 7 de febrero)", lugar: "Aeródromo de Santa María de Punilla, Córdoba", hora: "A confirmar" },
