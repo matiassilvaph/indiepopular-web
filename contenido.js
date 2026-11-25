@@ -150,7 +150,7 @@ const NOTAS = [
     imagen: "img/noticias/buenos-vampiros.jpg",
     credito: "Buenos Vampiros. Foto: @shootingtobi.",
     galeria: ["img/noticias/nina-suarez.jpg", "img/noticias/tomates-en-verano.jpg"],
-    creditoGaleria: "Nina Suárez (foto: difusión). Tomates en Verano y Pezcuis (foto: @shootingtobi).",
+    creditoGaleria: "Nina Suárez (foto: difusión). Tomates en Verano (foto: Instagram de la banda).",
     autor: "Indie Popular",
     cuerpo: [
       "Sonido Konex, el ciclo de la Ciudad Cultural Konex dedicado a la escena emergente, anunció su edición de diciembre: será el sábado 5 a las 19 h.",
