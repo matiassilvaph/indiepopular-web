@@ -16,6 +16,28 @@ const CONFIG = {
 /* categoria: "Noticias" | "Descubrir" | "Entrevistas" | "Cobertura" | "Agenda" */
 const NOTAS = [
   {
+    id: "primavera-sound-2026-grilla-por-dia",
+    categoria: "Noticias",
+    fecha: "2026-11-24",
+    titulo: "Primavera Sound BA: los horarios de cada día",
+    bajada: "Gorillaz cierra el sábado a las 21:25 y The Strokes el domingo a las 22:30. La música arranca a las 14:15.",
+    imagen: "img/primavera-lineup-oficial.jpg",
+    credito: "Imágenes oficiales: Primavera Sound Buenos Aires / Popart Music",
+    autor: "Indie Popular",
+    cuerpo: [
+      "El festival publicó los horarios para el sábado 28 y el domingo 29 de noviembre en el Club Ciudad de Buenos Aires, en Núñez. Hay tres escenarios: Heineken, Primavera y Barcelona. La música arranca a las 14:15 los dos días.",
+      "Sábado 28: Gorillaz toca de 21:25 a 22:55 en el escenario Heineken. Antes pasan Yung Lean (19:10), CMAT (20:15) y Ecco2k (20:15). La noche cierra con Danny L Harle y John Talabot hasta las 00:00.",
+      "Domingo 29: The Strokes toca de 22:30 a 23:45 en el escenario Primavera. Antes, FKA twigs (19:50), Lily Allen (21:20), Courtney Barnett (17:50) y underscores (19:00).",
+      "Artistas argentinos del sábado: El Nota (15:00, Primavera), Juliana Gattas (16:20, Primavera), Marilina Bertoldi (17:10, Heineken) y Jaime Sin Tierra (19:00, Barcelona).",
+      "Artistas argentinos del domingo: Pizza (14:15, Barcelona), Fin del Mundo (14:30, Heineken), Santiago Motorizado (16:55, Heineken) y Juana Molina (18:45, Heineken).",
+      "Indie Popular cubrirá las dos jornadas. La cobertura se publicará en nuestro Instagram y en esta web."
+    ],
+    galeria: [
+      "img/primavera-grilla-sabado.jpg",
+      "img/primavera-grilla-domingo.jpg"
+    ]
+  },
+  {
     id: "attaque-77-movistar-arena-2027",
     categoria: "Noticias",
     fecha: "2026-11-25",
@@ -270,28 +292,6 @@ const NOTAS = [
       { nombre: "The Fader", url: "https://www.thefader.com/2026/11/16/2027-grammy-nominations-raye-underscores" },
       { nombre: "Hypebeast", url: "https://hypebeast.com/it/2026/11/2027-69th-grammy-awards-nominations-full-list" },
       { nombre: "Primavera Sound Buenos Aires (Instagram)", url: "https://www.instagram.com/primaverasoundbuenosaires/" }
-    ]
-  },
-  {
-    id: "primavera-sound-2026-grilla-por-dia",
-    categoria: "Noticias",
-    fecha: "2026-11-24",
-    titulo: "Primavera Sound BA: los horarios de cada día",
-    bajada: "Gorillaz cierra el sábado a las 21:25 y The Strokes el domingo a las 22:30. La música arranca a las 14:15.",
-    imagen: "img/primavera-lineup-oficial.jpg",
-    credito: "Imágenes oficiales: Primavera Sound Buenos Aires / Popart Music",
-    autor: "Indie Popular",
-    cuerpo: [
-      "El festival publicó los horarios para el sábado 28 y el domingo 29 de noviembre en el Club Ciudad de Buenos Aires, en Núñez. Hay tres escenarios: Heineken, Primavera y Barcelona. La música arranca a las 14:15 los dos días.",
-      "Sábado 28: Gorillaz toca de 21:25 a 22:55 en el escenario Heineken. Antes pasan Yung Lean (19:10), CMAT (20:15) y Ecco2k (20:15). La noche cierra con Danny L Harle y John Talabot hasta las 00:00.",
-      "Domingo 29: The Strokes toca de 22:30 a 23:45 en el escenario Primavera. Antes, FKA twigs (19:50), Lily Allen (21:20), Courtney Barnett (17:50) y underscores (19:00).",
-      "Artistas argentinos del sábado: El Nota (15:00, Primavera), Juliana Gattas (16:20, Primavera), Marilina Bertoldi (17:10, Heineken) y Jaime Sin Tierra (19:00, Barcelona).",
-      "Artistas argentinos del domingo: Pizza (14:15, Barcelona), Fin del Mundo (14:30, Heineken), Santiago Motorizado (16:55, Heineken) y Juana Molina (18:45, Heineken).",
-      "Indie Popular cubrirá las dos jornadas. La cobertura se publicará en nuestro Instagram y en esta web."
-    ],
-    galeria: [
-      "img/primavera-grilla-sabado.jpg",
-      "img/primavera-grilla-domingo.jpg"
     ]
   },
   {
