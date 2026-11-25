@@ -16,6 +16,27 @@ const CONFIG = {
 /* categoria: "Noticias" | "Descubrir" | "Entrevistas" | "Cobertura" | "Agenda" */
 const NOTAS = [
   {
+    id: "el-mato-a-un-policia-motorizado-c-art-media-2026",
+    categoria: "Noticias",
+    fecha: "2026-11-24",
+    titulo: "Él Mató a un Policía Motorizado toca dos noches en C Art Media: 15 y 16 de diciembre",
+    placa: "Él Mató · C Art Media",
+    placaDetalle: "Martes 15 y miércoles 16\nde diciembre\n\nC Art Media, Chacarita\nEntradas: Passline",
+    bajada: "La banda hace dos shows el 15 y 16 de diciembre en C Art Media, Chacarita, y cierra el año el 19 en el Hipódromo de La Plata.",
+    imagen: "",
+    autor: "Indie Popular",
+    cuerpo: [
+      "Él Mató a un Policía Motorizado se presentará el martes 15 y el miércoles 16 de diciembre en el Complejo C Art Media (Av. Corrientes 6271, Chacarita). Las entradas se venden por Passline, en localidad única de pie.",
+      "Para el show del 16 de diciembre ya se agotó la primera tanda de entradas y se vende la preventa 2, según El Destape.",
+      "Los shows llegan después de que la banda agotara el Movistar Arena en septiembre. El cierre del año será el sábado 19 de diciembre en el Hipódromo de La Plata, dentro del ciclo Noches Capitales 2026, con entradas por Livepass."
+    ],
+    fuentes: [
+      { nombre: "Ámbito", url: "https://www.ambito.com/espectaculos/el-mato-un-policia-motorizado-dos-shows-buenos-aires-como-y-donde-comprar-las-entradas-n6347527" },
+      { nombre: "El Destape", url: "https://www.eldestapeweb.com/cultura/nuevas-entradas-fecha-mato-policia-motorizado-c-art-media-2026-precios-cuando-toca-20261123162127" },
+      { nombre: "Diario Hoy (Noches Capitales)", url: "https://diariohoy.net/espectaculos/noches-capitales-2026-presenta-a-el-mato-a-un-policia-motorizado-288631" }
+    ]
+  },
+  {
     id: "el-hombre-gris-iriart-chicas-del-te-ila-bar-san-miguel-2026",
     categoria: "Agenda",
     fecha: "2026-11-24",
@@ -281,6 +302,8 @@ const AGENDA = [
   { dia: "05/12", artista: "Daniel Caesar", lugar: "Estadio Obras Sanitarias, Núñez", hora: "A confirmar" },
   { dia: "07/12", artista: "Festival Sónico Libre · 10 años (La Acción del Viento, Losa Radiante, Aky Heredia y más)", lugar: "Centro Cultural Raíces, San Miguel", hora: "19 h" },
   { dia: "08/12", artista: "Shintaro Sakamoto", lugar: "Niceto Club, Palermo", hora: "A confirmar" },
+  { dia: "15/12", artista: "Él Mató a un Policía Motorizado (también 16 de diciembre)", lugar: "C Art Media, Chacarita", hora: "A confirmar" },
+  { dia: "19/12", artista: "Él Mató a un Policía Motorizado (Noches Capitales)", lugar: "Hipódromo de La Plata, La Plata", hora: "A confirmar" },
   { dia: "15/01", artista: "Rush", lugar: "Movistar Arena, Villa Crespo", hora: "A confirmar" },
   { dia: "05/02", artista: "Jack Johnson", lugar: "Movistar Arena, Villa Crespo", hora: "A confirmar" },
   { dia: "06/02", artista: "María Becerra (también 7 de febrero)", lugar: "Movistar Arena, Villa Crespo", hora: "21 h" },
