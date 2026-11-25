@@ -45,7 +45,8 @@ const NOTAS = [
     placa: "Bestia Bebé",
     placaDetalle: "Yendo Rápido a Ningún Lugar\nDomingo 20 de diciembre\nC Art Media, Chacarita\nEntradas: Passline",
     bajada: "La banda presenta su sexto disco el domingo 20 de diciembre en C Art Media, Chacarita. Entradas por Passline.",
-    imagen: "",
+    imagen: "img/noticias/bestia-bebe.jpg",
+    credito: "Bestia Bebé. Foto: Instagram oficial de la banda.",
     autor: "Indie Popular",
     cuerpo: [
       "Bestia Bebé toca el domingo 20 de diciembre en el Complejo C Art Media (Av. Corrientes 6271, Chacarita), donde presenta oficialmente Yendo Rápido a Ningún Lugar, su sexto disco de estudio. Las entradas anticipadas se venden por Passline.",
