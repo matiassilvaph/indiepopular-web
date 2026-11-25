@@ -16,6 +16,28 @@ const CONFIG = {
 /* categoria: "Noticias" | "Descubrir" | "Entrevistas" | "Cobertura" | "Agenda" */
 const NOTAS = [
   {
+    id: "festival-sonico-libre-10-anos-raices-san-miguel-2026",
+    categoria: "Agenda",
+    fecha: "2026-11-24",
+    titulo: "Sónico Libre cumple 10 años con un festival en el Centro Cultural Raíces de San Miguel",
+    placa: "Sónico Libre · 10 años",
+    placaDetalle: "Lunes 7 de diciembre · 19 h\nC.C. Raíces, San Miguel",
+    bajada: "El festival autogestivo celebra su décima edición el lunes 7 de diciembre en San Miguel, con La Acción del Viento, Losa Radiante y más.",
+    imagen: "img/noticias/sonico-libre-2026.jpg",
+    credito: "Flyer oficial. Diseño: @dellamore.dg.",
+    autor: "Indie Popular",
+    cuerpo: [
+      "El festival Sónico Libre celebra sus 10 años el lunes 7 de diciembre, desde las 19 h, en el Centro Cultural Raíces de San Miguel.",
+      "La grilla reúne a La Acción del Viento, Losa Radiante (que presenta Las piezas de mi dispositivo infinito), Proyecto Siberia, Errática, Christian Vaca, Vicky Ruggiero y Aky Heredia, cofundador de Indie Popular. También habrá ferias y material independiente.",
+      "Sónico Libre nació hace diez años en la Universidad Nacional de General Sarmiento como un festival autogestivo que combina proyectos de distintos lugares con artistas de la zona.",
+      "Las entradas se pagan por transferencia o en la puerta. La anticipada general cuesta $7.000 y se consigue por mensaje directo a la cuenta del festival."
+    ],
+    fuentes: [
+      { nombre: "Instagram de Sónico Libre", url: "https://www.instagram.com/sonico.libre/" },
+      { nombre: "Instagram del Centro Cultural Raíces", url: "https://www.instagram.com/raices_centro_cultural/" }
+    ]
+  },
+  {
     id: "santiago-motorizado-deseo-diciembre-2026",
     categoria: "Noticias",
     fecha: "2026-11-24",
@@ -234,6 +256,7 @@ const AGENDA = [
   { dia: "05/12", artista: "Sonido Konex: Buenos Vampiros, Nina Suárez, Tomates en Verano", lugar: "Ciudad Cultural Konex, Sarmiento 3131", hora: "19 h" },
   { dia: "05/12", artista: "Popfest", lugar: "Parque Norte", hora: "A confirmar" },
   { dia: "05/12", artista: "Daniel Caesar", lugar: "Estadio Obras Sanitarias, Núñez", hora: "A confirmar" },
+  { dia: "07/12", artista: "Festival Sónico Libre · 10 años (La Acción del Viento, Losa Radiante, Aky Heredia y más)", lugar: "Centro Cultural Raíces, San Miguel", hora: "19 h" },
   { dia: "08/12", artista: "Shintaro Sakamoto", lugar: "Niceto Club, Palermo", hora: "A confirmar" },
   { dia: "15/01", artista: "Rush", lugar: "Movistar Arena, Villa Crespo", hora: "A confirmar" },
   { dia: "05/02", artista: "Jack Johnson", lugar: "Movistar Arena, Villa Crespo", hora: "A confirmar" },
