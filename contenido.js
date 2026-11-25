@@ -23,7 +23,8 @@ const NOTAS = [
     placa: "Trueno",
     placaDetalle: "TURR4ZO World Tour\n\n11 de abril de 2027\nMovistar Arena",
     bajada: "El rapero de La Boca toca el 11 de abril de 2027 en el Movistar Arena, su primer show en ese estadio. La preventa ya empezó.",
-    imagen: "",
+    imagen: "img/noticias/trueno-2026.jpg",
+    credito: "Trueno. Foto: Instagram oficial de Trueno.",
     autor: "Indie Popular",
     cuerpo: [
       "Trueno se presentará el 11 de abril de 2027 en el Movistar Arena de Buenos Aires, en el marco del TURR4ZO World Tour. Será su primer show en ese estadio y la preventa de entradas ya comenzó.",
@@ -47,7 +48,8 @@ const NOTAS = [
     placa: "Faith No More",
     placaDetalle: "+ Alice In Chains\n+ Mastodon\n\n7 de noviembre de 2027\nEstadio Ferro",
     bajada: "La banda de Mike Patton toca el 7 de noviembre de 2027 en el Estadio Ferro, con Alice In Chains y Mastodon como invitados.",
-    imagen: "",
+    imagen: "img/noticias/faith-no-more-2027.jpg",
+    credito: "Faith No More. Foto: Travis Shinn.",
     autor: "Indie Popular",
     cuerpo: [
       "Faith No More tocará el domingo 7 de noviembre de 2027 en el Estadio Ferro, en Caballito, con Alice In Chains y Mastodon como invitados especiales. Será su primera presentación en el país en doce años.",
