@@ -147,7 +147,8 @@ const NOTAS = [
     placa: "Sáb 5 dic · 19 h",
     placaDetalle: "Buenos Vampiros\nNina Suárez\nTomates en Verano\n\nSonido Konex · Abasto",
     bajada: "Buenos Vampiros, Nina Suárez y Tomates en Verano tocan el sábado 5 de diciembre en el Konex.",
-    imagen: "",
+    imagen: "img/noticias/nina-suarez.jpg",
+    credito: "Nina Suárez. Foto: difusión.",
     autor: "Indie Popular",
     cuerpo: [
       "Sonido Konex, el ciclo de la Ciudad Cultural Konex dedicado a la escena emergente, anunció su edición de diciembre: será el sábado 5 a las 19 h.",
