@@ -23,8 +23,8 @@ const NOTAS = [
     placa: "Santiago Motorizado",
     placaDetalle: "Cierre de El Retorno\n\nViernes 4 de diciembre\nDeseo · 21 h",
     bajada: "El cantante de El Mató a un Policía Motorizado despide el viernes 4 de diciembre en Deseo la gira de su primer disco solista.",
-    imagen: "img/noticias/santiago-motorizado-flyer.jpg",
-    credito: "Santiago Motorizado. Imagen: flyer oficial.",
+    imagen: "img/noticias/santiago-motorizado.jpg",
+    credito: "Santiago Motorizado. Foto: Instagram oficial de Santiago Motorizado.",
     autor: "Indie Popular",
     cuerpo: [
       "Santiago Motorizado se presentará el viernes 4 de diciembre a las 21 h en Deseo (Av. Chorroarín 1040) para cerrar la gira de El Retorno, su primer álbum solista. Quedan las últimas entradas, según anunció el propio músico en sus redes.",
