@@ -8,7 +8,7 @@
   const tag = (c) => `<span class="tag tag--${esc(c)}">${esc(c)}</span>`;
   // Si la nota no tiene foto propia, se genera una placa con la identidad visual
   const tapa = (n, clase) => n.imagen
-    ? `<img class="${clase}" src="${esc(n.imagen)}" alt="" loading="lazy">`
+    ? `<img class="${clase}" src="${esc(n.imagen)}" alt="" loading="lazy"${n.encuadre ? ` style="object-position:${esc(n.encuadre)}"` : ""}>`
     : `<div class="${clase} placa placa--${esc(n.categoria)}" aria-hidden="true">
         <div class="placa__top"><span class="placa__cat">${esc(n.categoria)}</span><span class="logo logo--mini"><span class="logo__disco"><span class="logo__a">INDIE</span><span class="logo__b">POPULAR</span></span></span></div>
         <div class="placa__cuerpo"><span class="placa__txt">${esc(n.placa || n.titulo)}</span>${n.placaDetalle ? `<span class="placa__det">${esc(n.placaDetalle)}</span>` : ""}</div>

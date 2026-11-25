@@ -22,6 +22,7 @@ const NOTAS = [
     titulo: "Primavera Sound BA: los horarios de cada día",
     bajada: "Gorillaz cierra el sábado a las 21:25 y The Strokes el domingo a las 22:30. La música arranca a las 14:15.",
     imagen: "img/primavera-lineup-oficial.jpg",
+    encuadre: "center top",
     credito: "Imágenes oficiales: Primavera Sound Buenos Aires / Popart Music",
     autor: "Indie Popular",
     cuerpo: [

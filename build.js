@@ -43,7 +43,7 @@ const descNota = (n) => String(n.bajada || n.titulo).slice(0, 300);
 const jsonld = (obj) => `<script type="application/ld+json">${JSON.stringify(obj).replace(/</g, "\\u003c")}</script>`;
 const tag = (c) => `<span class="tag tag--${esc(c)}">${esc(c)}</span>`;
 const tapa = (n, clase) => n.imagen
-  ? `<img class="${clase}" src="/${esc(n.imagen.replace(/^\//, ""))}" alt="${esc(n.titulo)}" loading="lazy">`
+  ? `<img class="${clase}" src="/${esc(n.imagen.replace(/^\//, ""))}" alt="${esc(n.titulo)}" loading="lazy"${n.encuadre ? ` style="object-position:${esc(n.encuadre)}"` : ""}>`
   : `<div class="${clase} placa placa--${esc(n.categoria)}" aria-hidden="true">
         <div class="placa__top"><span class="placa__cat">${esc(n.categoria)}</span><span class="logo logo--mini"><span class="logo__disco"><span class="logo__a">INDIE</span><span class="logo__b">POPULAR</span></span></span></div>
         <div class="placa__cuerpo"><span class="placa__txt">${esc(n.placa || n.titulo)}</span>${n.placaDetalle ? `<span class="placa__det">${esc(n.placaDetalle)}</span>` : ""}</div>
