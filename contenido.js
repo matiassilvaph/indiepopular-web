@@ -38,6 +38,29 @@ const NOTAS = [
     ]
   },
   {
+    id: "bestia-bebe-c-art-media-2026",
+    categoria: "Agenda",
+    fecha: "2026-11-25",
+    titulo: "Bestia Bebé despide el año en C Art Media con Yendo Rápido a Ningún Lugar",
+    placa: "Bestia Bebé",
+    placaDetalle: "Yendo Rápido a Ningún Lugar\nDomingo 20 de diciembre\nC Art Media, Chacarita\nEntradas: Passline",
+    bajada: "La banda presenta su sexto disco el domingo 20 de diciembre en C Art Media, Chacarita. Entradas por Passline.",
+    imagen: "",
+    autor: "Indie Popular",
+    cuerpo: [
+      "Bestia Bebé toca el domingo 20 de diciembre en el Complejo C Art Media (Av. Corrientes 6271, Chacarita), donde presenta oficialmente Yendo Rápido a Ningún Lugar, su sexto disco de estudio. Las entradas anticipadas se venden por Passline.",
+      "Discos Laptra anunció la fecha como la despedida del año de la banda: «La noche promete un repaso por Yendo Rápido a Ningún Lugar (2026) y los himnos de siempre».",
+      "El disco reúne diez canciones y salió por Primavera Labels. La formación actual es Tom Quintans (voz y guitarra), Polaco Ocorso (batería), Chicho Guisolfi (bajo) y Marki Canosa (guitarra).",
+      "Diciembre llega cargado para la escena: Santiago Motorizado cierra la gira de El Retorno el 4 de diciembre en Deseo, y El Mató a un Policía Motorizado toca el 15 y el 16 en C Art Media y el 19 en el Hipódromo de La Plata."
+    ],
+    fuentes: [
+      { nombre: "Discos Laptra", url: "https://laptra.substack.com/p/bestia-bebe-despide-el-ano-en-el" },
+      { nombre: "Passline", url: "https://www.passline.com/eventos/bestia-bebe-presenta-yendo-rapido-a-ningun-lugar-569793" },
+      { nombre: "Ámbito", url: "https://www.ambito.com/espectaculos/bestia-bebe-presenta-su-nuevo-disco-un-show-buenos-aires-como-y-donde-comprar-las-entradas-n6340617" },
+      { nombre: "FM La Boca", url: "https://fmlaboca.com.ar/bestia-bebe-c-art-media-20-diciembre-2026/" }
+    ]
+  },
+  {
     id: "johnny-marr-c-art-media-noviembre-2026",
     categoria: "Agenda",
     fecha: "2026-11-25",
@@ -440,6 +463,7 @@ const AGENDA = [
   { dia: "08/12", artista: "Shintaro Sakamoto", lugar: "Niceto Club, Palermo", hora: "A confirmar" },
   { dia: "15/12", artista: "Él Mató a un Policía Motorizado (también 16 de diciembre)", lugar: "C Art Media, Chacarita", hora: "A confirmar" },
   { dia: "19/12", artista: "Él Mató a un Policía Motorizado (Noches Capitales)", lugar: "Hipódromo de La Plata, La Plata", hora: "A confirmar" },
+  { dia: "20/12", artista: "Bestia Bebé (presenta Yendo Rápido a Ningún Lugar)", lugar: "C Art Media, Chacarita", hora: "A confirmar" },
   { dia: "15/01", artista: "Rush", lugar: "Movistar Arena, Villa Crespo", hora: "A confirmar" },
   { dia: "20/01", artista: "Festival Levitation: Melvins, Osees, Boris, Frankie and the Witch Fingers, Winona Riders", lugar: "Ciudad Cultural Konex, Abasto", hora: "A confirmar" },
   { dia: "05/02", artista: "Jack Johnson", lugar: "Movistar Arena, Villa Crespo", hora: "A confirmar" },
