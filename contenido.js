@@ -423,7 +423,7 @@ const NOTAS = [
 const AGENDA = [
   { dia: "24/11", artista: "Hot Chip", lugar: "C Art Media, Chacarita", hora: "A confirmar" },
   { dia: "26/11", artista: "Johnny Marr", lugar: "C Art Media, Chacarita", hora: "A confirmar" },
-  { dia: "26/11", artista: "Gorillaz", lugar: "Estadio Mario Alberto Kempes, Córdoba", hora: "A confirmar" },
+  { dia: "26/11", artista: "Gorillaz", lugar: "Playón Norte del Estadio Kempes, Córdoba", hora: "21 h" },
   { dia: "26/11", artista: "Underworld", lugar: "Mandarine Park, Costanera Norte", hora: "A confirmar" },
   { dia: "26/11", artista: "Militarie Gun", lugar: "Uniclub, Almagro", hora: "A confirmar" },
   { dia: "27/11", artista: "Barbi Recanati", lugar: "Niceto Club, Palermo", hora: "A confirmar" },
