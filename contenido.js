@@ -466,6 +466,7 @@ const AGENDA = [
   { dia: "11/04", artista: "Trueno (TURR4ZO World Tour)", lugar: "Movistar Arena, Villa Crespo", hora: "A confirmar" },
   { dia: "16/04", artista: "Quilmes Rock 2027 (16, 17 y 18 de abril)", lugar: "A confirmar", hora: "A confirmar" },
   { dia: "23/04", artista: "Attaque 77 (40 años)", lugar: "Movistar Arena, Villa Crespo", hora: "A confirmar · $77.000" },
+  { dia: "10/05", artista: "Dave Matthews Band", lugar: "Movistar Arena, Villa Crespo", hora: "A confirmar" },
   { dia: "11/05", artista: "Simple Plan + All Time Low", lugar: "Estadio Obras Sanitarias, Núñez", hora: "A confirmar" },
   { dia: "22/05", artista: "El Cuarteto de Nos", lugar: "Movistar Arena, Villa Crespo", hora: "21 h" },
   { dia: "27/05", artista: "Beth Gibbons", lugar: "C Art Media, Chacarita", hora: "A confirmar" },
