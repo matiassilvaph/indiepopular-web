@@ -5,3 +5,8 @@
 
 [build.environment]
   NODE_VERSION = "20"
+
+[[redirects]]
+  from = "/notas/el-hombre-gris-iriart-chicas-del-te-ila-bar-san-miguel-2026/*"
+  to = "/"
+  status = 301

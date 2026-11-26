@@ -225,28 +225,6 @@ const NOTAS = [
     ]
   },
   {
-    id: "el-hombre-gris-iriart-chicas-del-te-ila-bar-san-miguel-2026",
-    categoria: "Agenda",
-    fecha: "2026-11-24",
-    titulo: "El Hombre Gris e Iriart y las Chicas del Té tocan gratis en ILA Bar, San Miguel",
-    placa: "ILA Bar · Sáb 28",
-    placaDetalle: "El Hombre Gris\nIriart y las Chicas del Té\n\n21 h · Entrada gratuita",
-    bajada: "Las dos bandas comparten fecha el sábado 28 de noviembre a las 21 h en ILA Bar, con entrada gratuita.",
-    imagen: "img/noticias/el-hombre-gris.jpg",
-    credito: "El Hombre Gris. Foto: Instagram de la banda.",
-    galeria: ["img/noticias/iriart-chicas-del-te.jpg"],
-    creditoGaleria: "Iriart y las Chicas del Té. Foto: Instagram de la banda.",
-    autor: "Indie Popular",
-    cuerpo: [
-      "El Hombre Gris e Iriart y las Chicas del Té tocan el sábado 28 de noviembre a las 21 h en ILA Bar, en San Miguel. La entrada es gratuita.",
-      "Para El Hombre Gris será la última fecha del año, según anunció la banda en sus redes."
-    ],
-    fuentes: [
-      { nombre: "Instagram de El Hombre Gris", url: "https://www.instagram.com/elhombregris.oficial/" },
-      { nombre: "Instagram de ILA Bar", url: "https://www.instagram.com/ilaresto/" }
-    ]
-  },
-  {
     id: "festival-sonico-libre-10-anos-raices-san-miguel-2026",
     categoria: "Agenda",
     fecha: "2026-11-24",
@@ -453,7 +431,6 @@ const AGENDA = [
   { dia: "27/11", artista: "Las Sombras + Hestald", lugar: "CC Matienzo, CABA", hora: "21 h" },
   { dia: "28/11", artista: "A Perfect Circle", lugar: "Estadio Malvinas Argentinas, Paternal", hora: "A confirmar" },
   { dia: "28/11", artista: "Primavera Sound BA · día 1 (Gorillaz, Marilina Bertoldi, El Nota)", lugar: "Club Ciudad de Buenos Aires, Núñez", hora: "14:15 a 00:00" },
-  { dia: "28/11", artista: "El Hombre Gris + Iriart y las Chicas del Té (gratis)", lugar: "ILA Bar, San Miguel", hora: "21 h" },
   { dia: "29/11", artista: "Primavera Sound BA · día 2 (The Strokes, Juana Molina, Santiago Motorizado)", lugar: "Club Ciudad de Buenos Aires, Núñez", hora: "14:15 a 23:45" },
   { dia: "29/11", artista: "Marc Almond", lugar: "El Teatrito, Buenos Aires", hora: "A confirmar" },
   { dia: "30/11", artista: "FKA twigs", lugar: "Teatro Coliseo, Retiro", hora: "A confirmar" },
