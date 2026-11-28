@@ -46,6 +46,29 @@ const NOTAS = [
     ]
   },
   {
+    id: "incubus-light-grenades-20-anos",
+    categoria: "Descubrir",
+    fecha: "2026-11-28",
+    titulo: "Incubus: Light Grenades cumple 20 años",
+    placa: "20 años",
+    placaDetalle: "Incubus · Light Grenades\n28 de noviembre de 2006\nProducción: Brendan O'Brien\nN.º 1 en Billboard",
+    bajada: "El disco de «Anna Molly» y «Dig» salió el 28 de noviembre de 2006 en Estados Unidos y debutó en el primer puesto del Billboard 200.",
+    imagen: "",
+    autor: "Indie Popular",
+    cuerpo: [
+      "Light Grenades, el disco de Incubus producido por Brendan O'Brien, salió en Estados Unidos el 28 de noviembre de 2006 por Epic Records y hoy cumple 20 años. En Europa se había publicado cuatro días antes, el 24 de noviembre.",
+      "La banda lo grabó entre enero y julio de 2006 en el Henson Recording Studio de Hollywood y en Southern Tracks, en Atlanta. En su primera semana vendió 165.000 copias en Estados Unidos y debutó en el puesto 1 del Billboard 200.",
+      "Las canciones que lo definen son los cuatro cortes de difusión: «Anna Molly», el primero, lanzado en septiembre de 2006; «Dig», «Oil and Water» y «Love Hurts». El disco abre con «Quicksand» y tiene un tema partido en dos, «Earth to Bella», con una parte en el medio y otra en el cierre.",
+      "Un dato poco conocido: la percusión de «Paper Shoes» no salió de una batería. Los músicos la armaron golpeándose el pecho y la cabeza. Sobre el título, Brandon Boyd explicó en 2006 a la revista Kerrang! que tenía que ver con redefinir la idea de un arma.",
+      "¿Cuál es tu canción favorita de Light Grenades?"
+    ],
+    fuentes: [
+      { nombre: "Wikipedia (Light Grenades)", url: "https://en.wikipedia.org/wiki/Light_Grenades" },
+      { nombre: "Long Beach Current", url: "https://lbcurrent.com/uncategorized/2006/12/14/incubus-releases-its-sixth-album-light-grenades/" },
+      { nombre: "Daily Bruin", url: "https://dailybruin.com/2006/11/27/soundbite-incubus-034light-gre/" }
+    ]
+  },
+  {
     id: "santiago-motorizado-camping-bariloche-2027",
     categoria: "Noticias",
     fecha: "2026-11-28",
