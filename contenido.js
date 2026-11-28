@@ -46,6 +46,29 @@ const NOTAS = [
     ]
   },
   {
+    id: "santiago-motorizado-camping-bariloche-2027",
+    categoria: "Noticias",
+    fecha: "2026-11-28",
+    titulo: "Santiago Motorizado toca en Camping Bariloche 2027: fecha, lugar y grilla completa",
+    placa: "Santiago Motorizado",
+    placaDetalle: "Camping Bariloche 2027\nJueves 21 de enero\nCirse Club de Lago, Bariloche\nCon Javiera Mena\nEntradas: Fever",
+    bajada: "Santiago Motorizado comparte fecha con Javiera Mena el jueves 21 de enero en Cirse Club de Lago, Bariloche. Entradas por Fever.",
+    imagen: "",
+    autor: "Indie Popular",
+    cuerpo: [
+      "Santiago Motorizado toca el jueves 21 de enero de 2027 en el festival Camping Bariloche, en Cirse Club de Lago, a orillas del Nahuel Huapi. Comparte la fecha con Javiera Mena. Las entradas se venden por Fever, con distintas etapas de venta y beneficios para residentes de la Patagonia.",
+      "El festival se hace los cuatro jueves de enero. Jueves 7, en la Sociedad Rural de Bariloche, que se suma por primera vez como sede: Dillom, Juana Rozas, Broke Carrey, Las Hermanas Trucco, Outro + Melodrumma, Lumtz y fiesta final a cargo de Zuker.",
+      "Las otras tres fechas son en Cirse Club de Lago. Jueves 14: Virus y Mesa Midi. Jueves 21: Javiera Mena y Santiago Motorizado. Jueves 28: Perras on the Beach y MissLupe.",
+      "Por ahora no se informaron horarios ni precios.",
+      "Antes, Santiago Motorizado cierra la gira de El Retorno el viernes 4 de diciembre en Deseo (Av. Chorroarín 1040). El domingo 29 de noviembre toca en el Primavera Sound Buenos Aires, a las 16:55 en el escenario Heineken."
+    ],
+    fuentes: [
+      { nombre: "Ámbito", url: "https://www.ambito.com/espectaculos/el-festival-camping-bariloche-confirma-su-edicion-2027-dillom-virus-javiera-mena-santiago-motorizado-y-mas-n6349749" },
+      { nombre: "Indie Hoy", url: "https://indiehoy.com/recitales/camping-bariloche-anuncia-su-edicion-2027-con-dillom-perras-on-the-beach-y-mas/" },
+      { nombre: "NewsDigitales", url: "https://www.newsdigitales.com/entretenimiento/351052-camping-2027-confirmo-a-dillom-virus-y-javiera-mena-para-su-nueva-edicion-en-bariloche/" }
+    ]
+  },
+  {
     id: "bestia-bebe-c-art-media-2026",
     categoria: "Agenda",
     fecha: "2026-11-25",
@@ -457,8 +480,12 @@ const AGENDA = [
   { dia: "15/12", artista: "Él Mató a un Policía Motorizado (también 16 de diciembre)", lugar: "C Art Media, Chacarita", hora: "A confirmar" },
   { dia: "19/12", artista: "Él Mató a un Policía Motorizado (Noches Capitales)", lugar: "Hipódromo de La Plata, La Plata", hora: "A confirmar" },
   { dia: "20/12", artista: "Bestia Bebé (presenta Yendo Rápido a Ningún Lugar)", lugar: "C Art Media, Chacarita", hora: "A confirmar" },
+  { dia: "07/01/2027", artista: "Camping Bariloche 2027: Dillom, Juana Rozas, Broke Carrey, Las Hermanas Trucco, Zuker y más", lugar: "Sociedad Rural de Bariloche, Bariloche", hora: "A confirmar" },
+  { dia: "14/01/2027", artista: "Camping Bariloche 2027: Virus + Mesa Midi", lugar: "Cirse Club de Lago, Bariloche", hora: "A confirmar" },
   { dia: "15/01", artista: "Rush", lugar: "Movistar Arena, Villa Crespo", hora: "A confirmar" },
   { dia: "20/01", artista: "Festival Levitation: Melvins, Osees, Boris, Frankie and the Witch Fingers, Winona Riders", lugar: "Ciudad Cultural Konex, Abasto", hora: "A confirmar" },
+  { dia: "21/01/2027", artista: "Camping Bariloche 2027: Santiago Motorizado + Javiera Mena", lugar: "Cirse Club de Lago, Bariloche", hora: "A confirmar" },
+  { dia: "28/01/2027", artista: "Camping Bariloche 2027: Perras on the Beach + MissLupe", lugar: "Cirse Club de Lago, Bariloche", hora: "A confirmar" },
   { dia: "05/02", artista: "Jack Johnson", lugar: "Movistar Arena, Villa Crespo", hora: "A confirmar" },
   { dia: "06/02", artista: "María Becerra (también 7 de febrero)", lugar: "Movistar Arena, Villa Crespo", hora: "21 h" },
   { dia: "06/02", artista: "Cosquín Rock 2027 (6 y 7 de febrero)", lugar: "Aeródromo de Santa María de Punilla, Córdoba", hora: "A confirmar" },
