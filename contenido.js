@@ -31,7 +31,14 @@ const NOTAS = [
       "Domingo 29: The Strokes toca de 22:30 a 23:45 en el escenario Primavera. Antes, FKA twigs (19:50), Lily Allen (21:20), Courtney Barnett (17:50) y underscores (19:00).",
       "Artistas argentinos del sábado: El Nota (15:00, Primavera), Juliana Gattas (16:20, Primavera), Marilina Bertoldi (17:10, Heineken) y Jaime Sin Tierra (19:00, Barcelona).",
       "Artistas argentinos del domingo: Pizza (14:15, Barcelona), Fin del Mundo (14:30, Heineken), Santiago Motorizado (16:55, Heineken) y Juana Molina (18:45, Heineken).",
+      "Cambios en la grilla: Nation of Language canceló su gira por Sudamérica por motivos de salud y Cara Delevingne no se presentará por motivos ajenos a la producción. Babeblade pasó del sábado al domingo.",
+      "Para quienes no vayan: Disney+ transmite en vivo los escenarios principales para Latinoamérica de habla hispana, desde las 14:30 el sábado y desde las 13:45 el domingo (hora argentina). Conducen Bebe Contepomi y Lara Gianina, y los shows quedan disponibles 30 días en la plataforma.",
       "Indie Popular cubrirá las dos jornadas. La cobertura se publicará en nuestro Instagram y en esta web."
+    ],
+    fuentes: [
+      { nombre: "El Destape", url: "https://www.eldestapeweb.com/cultura/donde-ver-online-primavera-sound-buenos-aires-esta-forma-2026112795835" },
+      { nombre: "TotalMedios", url: "https://www.totalmedios.com/nota/65903/primavera-sound-buenos-aires-2026-donde-ver-en-vivo-los-shows-de-gorillaz-y-the-strokes" },
+      { nombre: "Data Diario", url: "https://www.datadiario.com/datamusica/guia-completa-primavera-sound-buenos-aires-2026-entradas-transportes-artistas-horarios-transmicion-y-todo-lo-que-tenes-que-saber-2026112415320" }
     ],
     galeria: [
       "img/primavera-grilla-sabado.jpg",
